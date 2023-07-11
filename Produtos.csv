@@ -1,0 +1,1541 @@
+Tipo de produto;Produto;Preço (R$);Peso;Fornecedor
+Hortifruti;Acelga;3;1 un;Alícia das Neves
+Hortifruti;Acelga;6;1 un;João Guilherme Ramos
+Hortifruti;Acelga;3;1 un;Lucas da Cunha
+Hortifruti;Acelga;6;1 un; Luiz Miguel Sales
+Hortifruti;Acelga;5;1 un;Maysa da Conceição
+Hortifruti;Acelga;3;1 un; Ana Rezende
+Hortifruti;Acelga;4;1 un;Matheus Correia
+Hortifruti;Acelga;4;1 un;Laura Costela
+Hortifruti;Acelga;4;1 un;Yago Peixoto
+Hortifruti;Acelga;4;1 un;Lucca Cavalcanti
+Hortifruti;Acelga;6;1 un;Pedro Henrique Freitas
+Hortifruti;Acelga;5;1 un;Cecília Correia
+Hortifruti;Acelga;5;1 un; Alexia da Rocha
+Hortifruti;Alface;4;1 un;Olivia Almeida
+Hortifruti;Alface;6;1 un;Isabel Mendes
+Hortifruti;Alface;5;1 un; Stephany da Rocha
+Hortifruti;Alface;4;1 un;Valentina Ferreira
+Hortifruti;Alface;3;1 un;Francisco da Paz
+Hortifruti;Alface;5;1 un;Nicolas Cardoso
+Hortifruti;Alface;5;1 un;Eduardo Jesus
+Hortifruti;Alface;3;1 un;João Guilherme da Cunha
+Hortifruti;Alface;3;1 un;Fernanda Fernandes
+Hortifruti;Alface;5;1 un;Erick Moreira
+Laticínio;Leite;4;1 litro;Isabelly Moura
+Laticínio;Leite;5;1 litro;Breno das Neves
+Laticínio;Leite;4;1 litro; Isadora Nogueira
+Laticínio;Leite;6;1 litro;Isabel Mendes
+Laticínio;Leite;6;1 litro;Miguel Ramos
+Laticínio;Leite;4;1 litro;Danilo Cavalcanti
+Laticínio;Leite;4;1 litro;Ana Clara Silva
+Laticínio;Leite;6;1 litro;Maria Sophia Gonçalves
+Laticínio;Leite;6;1 litro; Isabelly Oliveira
+Laticínio;Leite;4;1 litro;Marcos Vinicius Araújo
+Laticínio;Leite;5;1 litro; Stephany Pereira
+Laticínio;Leite;4;1 litro;Nicolas Cardoso
+Laticínio;Leite;5;1 litro;Eduardo Jesus
+Laticínio;Leite;6;1 litro; Maria Luiza Caldeira
+Laticínio;Leite;6;1 litro;Davi Lucas Alves
+Laticínio;Leite;4;1 litro;Matheus Correia
+Laticínio;Leite;6;1 litro;Laura Costela
+Laticínio;Leite;5;1 litro;Yago Peixoto
+Hortifruti;Acelga;5;1 un;Pedro Lucas Cardoso
+Hortifruti;Acelga;6;1 un;Isaac Rezende
+Hortifruti;Acelga;5;1 un;Vitor Barbosa
+Hortifruti;Acelga;3;1 un;Sabrina Costa
+Hortifruti;Acelga;4;1 un;Ryan Cardoso
+Hortifruti;Acelga;5;1 un;Giovanna Mendes
+Hortifruti;Acelga;4;1 un;Alana Porto
+Hortifruti;Acelga;4;1 un;Lorena Santos
+Hortifruti;Acelga;6;1 un;Cecília da Conceição
+Hortifruti;Acelga;4;1 un;Gabriela da Rocha
+Hortifruti;Acelga;4;1 un; Diego Araújo
+Hortifruti;Acelga;4;1 un;Larissa da Mata
+Hortifruti;Alface;6;1 un;Isabelly Moura
+Hortifruti;Alface;3;1 un;Eduarda da Conceição
+Hortifruti;Alface;4;1 un;Maria Alice Correia
+Hortifruti;Alface;4;1 un; Isadora Nogueira
+Hortifruti;Alface;5;1 un;Ana Clara Silva
+Hortifruti;Alface;5;1 un;Alexandre das Neves
+Hortifruti;Alface;3;1 un; Isabelly Oliveira
+Hortifruti;Alface;4;1 un;Clara Sales
+Hortifruti;Alface;6;1 un;Yasmin Freitas
+Hortifruti;Alface;6;1 un;Heitor Aragão
+Hortifruti;Alface;3;1 un;Lívia da Cunha
+Laticínio;Leite;4;1 litro;Olivia Almeida
+Laticínio;Leite;4;1 litro;Maria Alice Correia
+Laticínio;Leite;5;1 litro;Alana Sales
+Laticínio;Leite;4;1 litro;Ana Beatriz Santos
+Laticínio;Leite;6;1 litro;Ana Sophia Costela
+Laticínio;Leite;5;1 litro; Stephany da Rocha
+Laticínio;Leite;6;1 litro;Valentina Ferreira
+Laticínio;Leite;5;1 litro;Matheus Teixeira
+Laticínio;Leite;4;1 litro;Fernanda Fernandes
+Laticínio;Leite;6;1 litro;Yasmin Freitas
+Laticínio;Leite;6;1 litro; João Gabriel Correia
+Laticínio;Leite;6;1 litro;Erick Moreira
+Laticínio;Leite;4;1 litro;Ryan Cardoso
+Laticínio;Leite;6;1 litro;Giovanna Mendes
+Laticínio;Leite;6;1 litro;Alana Porto
+Laticínio;Leite;4;1 litro;Juan Freitas
+Hortifruti;Acelga;3;1 un;Julia Dias
+Hortifruti;Acelga;3;1 un;Ana Luiza Pires
+Hortifruti;Acelga;6;1 un;Vitor Gabriel Mendes
+Hortifruti;Acelga;3;1 un;Francisco Barbosa
+Hortifruti;Acelga;4;1 un;Fernando Santos
+Hortifruti;Acelga;3;1 un;Daniel Gonçalves
+Hortifruti;Acelga;6;1 un;Bryan Mendes
+Hortifruti;Acelga;6;1 un;Sophia da Mata
+Hortifruti;Acelga;3;1 un;João Guilherme da Cruz
+Hortifruti;Acelga;5;1 un;Giovanna Lima
+Hortifruti;Acelga;4;1 un;Paulo Novaes
+Hortifruti;Acelga;4;1 un;Agatha Rodrigues
+Hortifruti;Acelga;4;1 un;Alexia Barros
+Hortifruti;Acelga;3;1 un;Juan Freitas
+Hortifruti;Acelga;6;1 un;André Campos
+Hortifruti;Acelga;5;1 un; André da Rocha
+Hortifruti;Acelga;5;1 un;João Pedro Costa
+Hortifruti;Alface;5;1 un;Luigi Ramos
+Hortifruti;Alface;6;1 un;Alana Sales
+Hortifruti;Alface;6;1 un;Felipe Freitas
+Hortifruti;Alface;6;1 un;Ana Beatriz Santos
+Hortifruti;Alface;3;1 un;Danilo Cavalcanti
+Hortifruti;Alface;5;1 un;Maria Sophia Gonçalves
+Hortifruti;Alface;4;1 un;Vinicius da Paz
+Hortifruti;Alface;4;1 un;Marcos Vinicius Araújo
+Hortifruti;Alface;6;1 un; Stephany Pereira
+Hortifruti;Alface;3;1 un;Agatha da Paz
+Hortifruti;Alface;3;1 un;Matheus Teixeira
+Hortifruti;Alface;5;1 un;Davi Lucas Alves
+Hortifruti;Hortelã;5;1 un;Olivia Almeida
+Hortifruti;Hortelã;7;1 un;Sophia Cavalcanti
+Hortifruti;Hortelã;6;1 un; Isadora Nogueira
+Hortifruti;Hortelã;7;1 un;Ana Sophia Costela
+Hortifruti;Hortelã;7;1 un;Ana Clara Silva
+Hortifruti;Hortelã;7;1 un; Stephany da Rocha
+Hortifruti;Hortelã;7;1 un;Vinicius da Paz
+Hortifruti;Hortelã;6;1 un;Agatha da Paz
+Hortifruti;Manjericão;5;1 un;Lorena Santos
+Hortifruti;Manjericão;8;1 un;Otávio Moreira
+Hortifruti;Manjericão;6;1 un;Olivia Almeida
+Hortifruti;Manjericão;7;1 un;Breno das Neves
+Hortifruti;Manjericão;6;1 un;Maria Alice Correia
+Hortifruti;Manjericão;6;1 un;Luigi Ramos
+Hortifruti;Manjericão;8;1 un;Alana Sales
+Hortifruti;Manjericão;7;1 un;Ana Beatriz Santos
+Hortifruti;Manjericão;5;1 un;Ana Sophia Costela
+Hortifruti;Manjericão;8;1 un;Alexandre das Neves
+Hortifruti;Manjericão;7;1 un;Maria Sophia Gonçalves
+Hortifruti;Manjericão;5;1 un;Francisco da Paz
+Hortifruti;Manjericão;6;1 un;Juliana Rocha
+Hortifruti;Manjericão;5;1 un; Maria Luiza Caldeira
+Hortifruti;Manjericão;6;1 un;Yasmin Freitas
+Hortifruti;Manjericão;6;1 un;Heitor Aragão
+Hortifruti;Salsa;6;1 un;Eduardo Nunes
+Hortifruti;Salsa;8;1 un;Maria Cecília Almeida
+Hortifruti;Salsa;8;1 un;Davi Lucca Teixeira
+Hortifruti;Salsa;6;1 un;Fernando Vieira
+Hortifruti;Salsa;8;1 un;Enzo Gabriel Nunes
+Hortifruti;Salsa;6;1 un;Leonardo da Cruz
+Hortifruti;Salsa;6;1 un; Cauã da Conceição
+Hortifruti;Salsa;6;1 un;Thomas Freitas
+Hortifruti;Salsa;7;1 un;Milena Costa
+Laticínio;Manteiga;9;100 g;Francisco Barbosa
+Laticínio;Manteiga;7;100 g;Diego da Conceição
+Laticínio;Manteiga;5;100 g;João Vitor Sales
+Laticínio;Manteiga;9;100 g;Lucca Cavalcanti
+Laticínio;Manteiga;8;100 g;Natália da Costa
+Laticínio;Manteiga;5;100 g;Cecília Correia
+Laticínio;Manteiga;5;100 g;Isabelly Moura
+Laticínio;Manteiga;7;100 g; Isadora Nogueira
+Laticínio;Manteiga;9;100 g;Isabel Mendes
+Laticínio;Manteiga;5;100 g; Stephany da Rocha
+Laticínio;Requeijão Catupiry;6;200 g;Raquel Azevedo
+Laticínio;Requeijão Catupiry;6;200 g;Bruno Pires
+Laticínio;Requeijão Catupiry;6;200 g;Nathan Oliveira
+Laticínio;Requeijão Catupiry;7;200 g; Juan Ferreira
+Laticínio;Requeijão Catupiry;7;200 g; Thiago Ramos
+Laticínio;Requeijão Catupiry;8;200 g;Luiza da Mata
+Laticínio;Requeijão Catupiry;6;200 g;Raul Araújo
+Laticínio;Requeijão Catupiry;5;200 g;Julia Dias
+Laticínio;Requeijão Catupiry;7;200 g;Ana Luiza Pires
+Laticínio;Requeijão Catupiry;7;200 g;Vitor Gabriel Mendes
+Laticínio;Requeijão Catupiry;6;200 g;Fernando Santos
+Laticínio;Requeijão Catupiry;8;200 g;Diego da Conceição
+Laticínio;Requeijão Catupiry;7;200 g;Daniel Gonçalves
+Laticínio;Requeijão Catupiry;5;200 g;Isaac Rezende
+Laticínio;Requeijão Catupiry;6;200 g;Lucas da Cunha
+Laticínio;Requeijão Catupiry;8;200 g; Luiz Miguel Sales
+Laticínio;Requeijão Catupiry;7;200 g;Sabrina Costa
+Laticínio;Requeijão Catupiry;7;200 g;Mariana Campos
+Laticínio;Requeijão Poços de Caldas;7;200 g;Maria Sophia Gonçalves
+Laticínio;Requeijão Poços de Caldas;5;200 g; Isabelly Oliveira
+Laticínio;Requeijão Poços de Caldas;7;200 g;Eduardo Jesus
+Laticínio;Requeijão Poços de Caldas;5;200 g;Davi Lucas Alves
+Laticínio;Leite;5;1 litro;Sophia Cavalcanti
+Laticínio;Leite;5;1 litro;Eduarda da Conceição
+Laticínio;Leite;4;1 litro;Luigi Ramos
+Laticínio;Leite;4;1 litro;Felipe Freitas
+Laticínio;Leite;6;1 litro;Alexandre das Neves
+Laticínio;Leite;6;1 litro;Francisco da Paz
+Laticínio;Leite;4;1 litro;Vinicius da Paz
+Laticínio;Leite;5;1 litro;Juliana Rocha
+Laticínio;Leite;6;1 litro;Agatha da Paz
+Laticínio;Leite;6;1 litro;Clara Sales
+Laticínio;Leite;5;1 litro;João Guilherme da Cunha
+Laticínio;Leite;4;1 litro;Heitor Aragão
+Laticínio;Leite;4;1 litro;Lívia da Cunha
+Laticínio;Leite;5;1 litro;Paulo Novaes
+Laticínio;Leite;4;1 litro;Agatha Rodrigues
+Laticínio;Leite;5;1 litro;Alexia Barros
+Laticínio;Leite;4;1 litro;Lorena Santos
+Laticínio;Leite;4;1 litro; Alice Teixeira
+Laticínio;Leite;5;1 litro;João Vitor Sales
+Laticínio;Leite;5;1 litro;Maria Gonçalves
+Hortifruti;Acelga;3;1 un;Vitória das Neves
+Hortifruti;Acelga;5;1 un;Diego da Conceição
+Hortifruti;Acelga;3;1 un;Mariana Campos
+Hortifruti;Acelga;3;1 un; Alice Teixeira
+Hortifruti;Acelga;4;1 un;João Vitor Sales
+Hortifruti;Acelga;5;1 un;Maria Gonçalves
+Hortifruti;Acelga;5;1 un;Leonardo Teixeira
+Hortifruti;Acelga;4;1 un;Joaquim Cavalcanti
+Hortifruti;Acelga;5;1 un;Augusto das Neves
+Hortifruti;Acelga;5;1 un;Otávio Moreira
+Hortifruti;Acelga;3;1 un;Natália da Costa
+Hortifruti;Acelga;6;1 un;Daniela da Cruz
+Hortifruti;Alface;3;1 un;Sophia Cavalcanti
+Hortifruti;Alface;5;1 un;Breno das Neves
+Hortifruti;Alface;6;1 un;Ana Sophia Costela
+Hortifruti;Alface;4;1 un;Miguel Ramos
+Hortifruti;Alface;3;1 un;Juliana Rocha
+Hortifruti;Alface;6;1 un; Maria Luiza Caldeira
+Hortifruti;Alface;6;1 un; João Gabriel Correia
+Hortifruti;Hortelã;8;1 un;Larissa da Mata
+Hortifruti;Hortelã;7;1 un; Alexia da Rocha
+Hortifruti;Hortelã;8;1 un;Eduarda da Conceição
+Hortifruti;Hortelã;8;1 un;Breno das Neves
+Hortifruti;Hortelã;6;1 un;Felipe Freitas
+Hortifruti;Hortelã;8;1 un;Ana Beatriz Santos
+Hortifruti;Hortelã;5;1 un;Miguel Ramos
+Hortifruti;Hortelã;5;1 un;Danilo Cavalcanti
+Hortifruti;Hortelã;5;1 un;Juliana Rocha
+Hortifruti;Hortelã;8;1 un; Stephany Pereira
+Hortifruti;Hortelã;7;1 un;Nicolas Cardoso
+Hortifruti;Hortelã;6;1 un;Eduardo Jesus
+Hortifruti;Manjericão;7;1 un; Diego Araújo
+Hortifruti;Manjericão;7;1 un; Alexia da Rocha
+Hortifruti;Manjericão;8;1 un;Isabelly Moura
+Hortifruti;Manjericão;5;1 un;Eduarda da Conceição
+Hortifruti;Manjericão;8;1 un;Ana Clara Silva
+Hortifruti;Manjericão;5;1 un;Valentina Ferreira
+Hortifruti;Manjericão;7;1 un;Agatha da Paz
+Hortifruti;Manjericão;8;1 un;Matheus Teixeira
+Hortifruti;Manjericão;7;1 un;João Guilherme da Cunha
+Hortifruti;Manjericão;5;1 un;Fernanda Fernandes
+Hortifruti;Manjericão;6;1 un;Lívia da Cunha
+Hortifruti;Manjericão;6;1 un;Eduardo Nunes
+Hortifruti;Salsa;6;1 un; Luiz Miguel da Costa
+Hortifruti;Salsa;8;1 un;Brenda Cardoso
+Hortifruti;Salsa;5;1 un;Yago Castro
+Hortifruti;Salsa;7;1 un;Raul Araújo
+Hortifruti;Salsa;6;1 un;Vinicius Moreira
+Hortifruti;Salsa;5;1 un;Kaique Novaes
+Hortifruti;Salsa;7;1 un;João Felipe Cruz
+Hortifruti;Salsa;7;1 un;Lucca da Mata
+Laticínio;Manteiga;6;100 g;Ana Luiza Pires
+Laticínio;Manteiga;5;100 g;Vitor Gabriel Mendes
+Laticínio;Manteiga;8;100 g;Vitória das Neves
+Laticínio;Manteiga;5;100 g;Maria Gonçalves
+Laticínio;Manteiga;6;100 g;André Campos
+Laticínio;Manteiga;7;100 g; André da Rocha
+Laticínio;Manteiga;7;100 g;Daniela da Cruz
+Laticínio;Manteiga;10;100 g;Olivia Almeida
+Laticínio;Manteiga;10;100 g;Breno das Neves
+Laticínio;Manteiga;10;100 g;Maria Alice Correia
+Laticínio;Manteiga;5;100 g;Luigi Ramos
+Laticínio;Manteiga;10;100 g;Felipe Freitas
+Laticínio;Requeijão Catupiry;8;200 g;Luiz Otávio Porto
+Laticínio;Requeijão Catupiry;7;200 g;Isabelly da Mata
+Laticínio;Requeijão Catupiry;7;200 g;Thales Moura
+Laticínio;Requeijão Catupiry;5;200 g;Lara Porto
+Laticínio;Requeijão Catupiry;8;200 g;André da Cruz
+Laticínio;Requeijão Catupiry;8;200 g;Brenda Cardoso
+Laticínio;Requeijão Catupiry;6;200 g;Enzo Gabriel Nunes
+Laticínio;Requeijão Catupiry;7;200 g;Nina Moreira
+Laticínio;Requeijão Catupiry;7;200 g; Cauã da Conceição
+Laticínio;Requeijão Catupiry;6;200 g; Nathan Ferreira
+Laticínio;Requeijão Catupiry;7;200 g;Pedro Lucas Cardoso
+Laticínio;Requeijão Catupiry;6;200 g;Francisco Barbosa
+Laticínio;Requeijão Catupiry;8;200 g;Maysa da Conceição
+Laticínio;Requeijão Poços de Caldas;8;200 g;Valentina Ferreira
+Laticínio;Requeijão Poços de Caldas;7;200 g;Nicolas Cardoso
+Laticínio;Requeijão Poços de Caldas;5;200 g;Agatha da Paz
+Laticínio;Requeijão Poços de Caldas;7;200 g; Maria Luiza Caldeira
+Laticínio;Requeijão Poços de Caldas;6;200 g;Heitor Aragão
+Laticínio;Requeijão Poços de Caldas;6;200 g;Eduardo Nunes
+Hortifruti;Hortelã;8;1 un;Luigi Ramos
+Hortifruti;Hortelã;6;1 un;Alana Sales
+Hortifruti;Hortelã;8;1 un;Marcos Vinicius Araújo
+Hortifruti;Manjericão;8;1 un;João Vitor Sales
+Hortifruti;Manjericão;5;1 un;Pedro Henrique Freitas
+Hortifruti;Manjericão;5;1 un; André da Rocha
+Hortifruti;Manjericão;6;1 un;Natália da Costa
+Hortifruti;Manjericão;8;1 un;João Pedro Costa
+Hortifruti;Manjericão;6;1 un;Cecília Correia
+Hortifruti;Manjericão;7;1 un;Daniela da Cruz
+Hortifruti;Manjericão;7;1 un;Larissa da Mata
+Hortifruti;Manjericão;6;1 un; Isadora Nogueira
+Hortifruti;Manjericão;5;1 un;Isabel Mendes
+Hortifruti;Manjericão;8;1 un; Stephany Pereira
+Hortifruti;Manjericão;7;1 un;Nicolas Cardoso
+Hortifruti;Manjericão;6;1 un;Davi Lucas Alves
+Hortifruti;Salsa;8;1 un;Cauã das Neves
+Hortifruti;Salsa;8;1 un;Raquel Azevedo
+Hortifruti;Salsa;6;1 un; Pietra Lima
+Hortifruti;Salsa;8;1 un;Lara Porto
+Hortifruti;Salsa;5;1 un;André da Cruz
+Hortifruti;Salsa;8;1 un;Bruno Pires
+Hortifruti;Salsa;6;1 un;Nathan Oliveira
+Hortifruti;Salsa;7;1 un;Luiza da Mata
+Hortifruti;Salsa;8;1 un;Helena Pereira
+Hortifruti;Salsa;8;1 un;Milena Aragão
+Laticínio;Manteiga;9;100 g;Fernando Santos
+Laticínio;Manteiga;5;100 g;Agatha Rodrigues
+Laticínio;Manteiga;9;100 g;Lorena Santos
+Laticínio;Manteiga;10;100 g;Yago Peixoto
+Laticínio;Manteiga;6;100 g;Joaquim Cavalcanti
+Laticínio;Manteiga;7;100 g;Otávio Moreira
+Laticínio;Manteiga;6;100 g; Diego Araújo
+Laticínio;Manteiga;8;100 g;Alana Sales
+Laticínio;Manteiga;5;100 g;Ana Beatriz Santos
+Laticínio;Manteiga;7;100 g;Ana Clara Silva
+Laticínio;Manteiga;5;100 g;Alexandre das Neves
+Laticínio;Requeijão Catupiry;6;200 g;Maria Luiza Costela
+Laticínio;Requeijão Catupiry;5;200 g;João Miguel da Costa
+Laticínio;Requeijão Catupiry;8;200 g;Felipe Ramos
+Laticínio;Requeijão Catupiry;8;200 g; Luiz Miguel da Costa
+Laticínio;Requeijão Catupiry;7;200 g;Yago Castro
+Laticínio;Requeijão Catupiry;7;200 g;Pedro Henrique das Neves
+Laticínio;Requeijão Catupiry;5;200 g;Milena Aragão
+Laticínio;Requeijão Catupiry;5;200 g;Vitória das Neves
+Laticínio;Requeijão Catupiry;5;200 g;Alícia das Neves
+Laticínio;Requeijão Catupiry;8;200 g;João Guilherme Ramos
+Laticínio;Requeijão Catupiry;8;200 g;Vitor Barbosa
+Laticínio;Requeijão Poços de Caldas;7;200 g;Marcos Vinicius Araújo
+Laticínio;Requeijão Poços de Caldas;6;200 g; Stephany Pereira
+Laticínio;Requeijão Poços de Caldas;8;200 g;Clara Sales
+Laticínio;Requeijão Poços de Caldas;6;200 g;Matheus Teixeira
+Laticínio;Requeijão Poços de Caldas;7;200 g;João Guilherme da Cunha
+Laticínio;Requeijão Poços de Caldas;7;200 g;Fernanda Fernandes
+Laticínio;Requeijão Poços de Caldas;6;200 g;Erick Moreira
+Laticínio;Requeijão Poços de Caldas;7;200 g;Cauã das Neves
+Hortifruti;Alho;14;1 kg;André Campos
+Hortifruti;Alho;11;1 kg;Pedro Henrique Freitas
+Hortifruti;Alho;13;1 kg;João Pedro Costa
+Hortifruti;Banana;11;1 kg;João Felipe Cruz
+Hortifruti;Banana;11;1 kg;Manuela Novaes
+Hortifruti;Banana;12;1 kg;Augusto Cunha
+Hortifruti;Banana;9;1 kg; Maria Fernanda Rocha
+Hortifruti;Banana;9;1 kg;Luiz Otávio Porto
+Hortifruti;Bergamota Caí;14;1 kg;Luiz Otávio Porto
+Hortifruti;Bergamota Caí;8;1 kg;Lara Porto
+Hortifruti;Bergamota Caí;9;1 kg;Bruno Pires
+Hortifruti;Bergamota Caí;13;1 kg;Vinicius Moreira
+Hortifruti;Bergamota Caí;9;1 kg;Ana Luiza Pires
+Hortifruti;Bergamota Ponkan;8;1 kg; Alice Teixeira
+Hortifruti;Bergamota Ponkan;10;1 kg;Otávio Moreira
+Hortifruti;Cebola;14;1 kg;Luna Fernandes
+Hortifruti;Cebola;8;1 kg; Joaquim Melo
+Hortifruti;Cebola;11;1 kg;André da Cruz
+Hortifruti;Cebola;10;1 kg;Bruno Pires
+Hortifruti;Cenoura;8;1 kg;Brenda Cardoso
+Hortifruti;Cenoura;8;1 kg; Nathan Ferreira
+Hortifruti;Cenoura;10;1 kg;Julia Dias
+Hortifruti;Cenoura;15;1 kg;Diego da Conceição
+Hortifruti;Cenoura;12;1 kg;Agatha Rodrigues
+Hortifruti;Cenoura;10;1 kg; Alice Teixeira
+Hortifruti;Cenoura;9;1 kg;João Vitor Sales
+Hortifruti;Cenoura;15;1 kg;Maria Gonçalves
+Hortifruti;Cenoura;14;1 kg;André Campos
+Hortifruti;Cenoura;15;1 kg;Natália da Costa
+Hortifruti;Cenoura;13;1 kg;Daniela da Cruz
+Hortifruti;Laranja de Umbigo;8;1 kg;Luna Fernandes
+Hortifruti;Laranja de Umbigo;10;1 kg;Manuela Novaes
+Hortifruti;Laranja de Umbigo;8;1 kg;Luiza Ramos
+Hortifruti;Laranja de Umbigo;13;1 kg;Enrico Novaes
+Hortifruti;Laranja de Umbigo;8;1 kg; Joaquim Melo
+Hortifruti;Laranja de Umbigo;15;1 kg;Brenda Cardoso
+Hortifruti;Laranja de Umbigo;13;1 kg; Juan Ferreira
+Hortifruti;Laranja de Umbigo;15;1 kg;Helena Pereira
+Hortifruti;Laranja de Umbigo;13;1 kg;Enzo Gabriel Nunes
+Hortifruti;Laranja de Umbigo;9;1 kg;Nina Moreira
+Hortifruti;Laranja de Umbigo;13;1 kg; Nathan Ferreira
+Hortifruti;Laranja do Céu;11;1 kg;Pedro Lucas Cardoso
+Hortifruti;Laranja do Céu;9;1 kg;Fernando Santos
+Hortifruti;Laranja do Céu;14;1 kg;Diego da Conceição
+Hortifruti;Laranja do Céu;11;1 kg;João Guilherme Ramos
+Hortifruti;Laranja do Céu;15;1 kg;João Guilherme da Cruz
+Hortifruti;Laranja do Céu;12;1 kg;Leonardo Teixeira
+Hortifruti;Laranja do Céu;10;1 kg;Pedro Henrique Freitas
+Hortifruti;Maçã;12;1 kg; Juan Ferreira
+Hortifruti;Maçã;11;1 kg;Pedro Henrique das Neves
+Hortifruti;Maçã;10;1 kg;Milena Aragão
+Hortifruti;Maçã;8;1 kg;Leonardo da Cruz
+Hortifruti;Maçã;12;1 kg;Raul Araújo
+Hortifruti;Maçã;14;1 kg; Cauã da Conceição
+Hortifruti;Maçã;9;1 kg;Isaac Rezende
+Hortifruti;Maçã;14;1 kg;Sabrina Costa
+Hortifruti;Maçã;10;1 kg;João Guilherme da Cruz
+Hortifruti;Maçã;13;1 kg;Giovanna Lima
+Hortifruti;Maçã;13;1 kg;Alana Porto
+Hortifruti;Maçã;10;1 kg;Alexia Barros
+Hortifruti;Pêssego;8;1 kg;Milena Costa
+Hortifruti;Pêssego;11;1 kg;Lucca da Mata
+Hortifruti;Tangerina;13;1 kg; Maria Fernanda Rocha
+Hortifruti;Tangerina;13;1 kg;Luiz Otávio Porto
+Hortifruti;Abacaxi;8;1 un;Milena Costa
+Hortifruti;Abacaxi;11;1 un;Luna Fernandes
+Hortifruti;Abacaxi;9;1 un;Lucca da Mata
+Hortifruti;Abacaxi;14;1 un;Luiz Otávio Porto
+Hortifruti;Abacaxi;15;1 un;André da Cruz
+Hortifruti;Hortelã;7;1 un;Isabelly Moura
+Hortifruti;Hortelã;7;1 un;Maria Alice Correia
+Hortifruti;Hortelã;5;1 un;Isabel Mendes
+Hortifruti;Hortelã;6;1 un;Alexandre das Neves
+Hortifruti;Hortelã;6;1 un;Maria Sophia Gonçalves
+Hortifruti;Hortelã;8;1 un; Isabelly Oliveira
+Hortifruti;Hortelã;8;1 un;Valentina Ferreira
+Hortifruti;Hortelã;8;1 un;Francisco da Paz
+Hortifruti;Manjericão;8;1 un; Alice Teixeira
+Hortifruti;Manjericão;7;1 un;Sophia Cavalcanti
+Hortifruti;Manjericão;6;1 un;Felipe Freitas
+Hortifruti;Manjericão;5;1 un;Miguel Ramos
+Hortifruti;Manjericão;5;1 un;Danilo Cavalcanti
+Hortifruti;Manjericão;6;1 un; Stephany da Rocha
+Hortifruti;Manjericão;8;1 un; Isabelly Oliveira
+Hortifruti;Manjericão;5;1 un;Vinicius da Paz
+Hortifruti;Manjericão;8;1 un;Marcos Vinicius Araújo
+Hortifruti;Manjericão;8;1 un;Eduardo Jesus
+Hortifruti;Manjericão;5;1 un;Clara Sales
+Hortifruti;Manjericão;8;1 un; João Gabriel Correia
+Hortifruti;Manjericão;7;1 un;Erick Moreira
+Hortifruti;Nabo;13;1 un;Lara Porto
+Hortifruti;Nabo;9;1 un;Davi Lucca Teixeira
+Hortifruti;Nabo;15;1 un;Enzo Gabriel Nunes
+Hortifruti;Nabo;13;1 un;Leonardo da Cruz
+Hortifruti;Nabo;9;1 un;Vitor Gabriel Mendes
+Hortifruti;Nabo;8;1 un;Daniel Gonçalves
+Hortifruti;Nabo;15;1 un;Ryan Cardoso
+Hortifruti;Salsa;6;1 un;Erick Moreira
+Hortifruti;Salsa;8;1 un;Francisco Oliveira
+Hortifruti;Salsa;7;1 un; Juan Ferreira
+Hortifruti;Salsa;7;1 un; Thiago Ramos
+Hortifruti;Salsa;7;1 un;Pedro Henrique das Neves
+Hortifruti;Salsa;7;1 un;Vitor Hugo Viana
+Hortifruti;Salsa;8;1 un;Augusto Ribeiro
+Hortifruti;Salsa;7;1 un;Nina Moreira
+Hortifruti;Salsa;6;1 un;Ana Laura Azevedo
+Hortifruti;Salsa;8;1 un;Luna Fernandes
+Laticínio;Manteiga;8;100 g;Julia Dias
+Laticínio;Manteiga;6;100 g;Alícia das Neves
+Laticínio;Manteiga;10;100 g;João Guilherme Ramos
+Laticínio;Manteiga;6;100 g; Alice Teixeira
+Laticínio;Manteiga;5;100 g;Leonardo Teixeira
+Laticínio;Manteiga;6;100 g; Alexia da Rocha
+Laticínio;Manteiga;8;100 g;Sophia Cavalcanti
+Laticínio;Manteiga;6;100 g;Eduarda da Conceição
+Laticínio;Manteiga;6;100 g;Miguel Ramos
+Laticínio;Manteiga;8;100 g;Maria Sophia Gonçalves
+Laticínio;Requeijão Catupiry;8;200 g;Davi Luiz Lopes
+Laticínio;Requeijão Catupiry;5;200 g;Mirella Viana
+Laticínio;Requeijão Catupiry;7;200 g; Pietra Lima
+Laticínio;Requeijão Catupiry;5;200 g;Maria Cecília Almeida
+Laticínio;Requeijão Catupiry;7;200 g;Davi Lucca Teixeira
+Laticínio;Requeijão Catupiry;6;200 g;Francisco Oliveira
+Laticínio;Requeijão Catupiry;6;200 g;Fernando Vieira
+Laticínio;Requeijão Catupiry;7;200 g;Vitor Hugo Viana
+Laticínio;Requeijão Catupiry;7;200 g;Helena Pereira
+Laticínio;Requeijão Catupiry;6;200 g;Augusto Ribeiro
+Laticínio;Requeijão Catupiry;6;200 g;Leonardo da Cruz
+Laticínio;Requeijão Catupiry;6;200 g;Vinicius Moreira
+Laticínio;Requeijão Poços de Caldas;5;200 g;Francisco da Paz
+Laticínio;Requeijão Poços de Caldas;8;200 g;Vinicius da Paz
+Laticínio;Requeijão Poços de Caldas;5;200 g;Juliana Rocha
+Laticínio;Requeijão Poços de Caldas;7;200 g;Yasmin Freitas
+Laticínio;Requeijão Poços de Caldas;7;200 g; João Gabriel Correia
+Laticínio;Requeijão Poços de Caldas;5;200 g;Lívia da Cunha
+Hortifruti;Alho;15;1 kg;Matheus Correia
+Hortifruti;Alho;15;1 kg;Agatha Rodrigues
+Hortifruti;Alho;15;1 kg;Augusto das Neves
+Hortifruti;Alho;15;1 kg;Gabriela da Rocha
+Hortifruti;Alho;9;1 kg;Larissa da Mata
+Hortifruti;Alho;11;1 kg;Olivia Almeida
+Hortifruti;Banana;11;1 kg;Milena Costa
+Hortifruti;Banana;14;1 kg;Luiza Ramos
+Hortifruti;Banana;14;1 kg;Enrico Novaes
+Hortifruti;Bergamota Caí;14;1 kg;Raquel Azevedo
+Hortifruti;Bergamota Caí;8;1 kg;Davi Lucca Teixeira
+Hortifruti;Bergamota Caí;12;1 kg;Vitor Gabriel Mendes
+Hortifruti;Bergamota Caí;11;1 kg;Diego da Conceição
+Hortifruti;Bergamota Caí;11;1 kg;Daniel Gonçalves
+Hortifruti;Bergamota Caí;8;1 kg;Vitor Barbosa
+Hortifruti;Bergamota Caí;13;1 kg; Luiz Miguel Sales
+Hortifruti;Bergamota Ponkan;10;1 kg; Ana Rezende
+Hortifruti;Bergamota Ponkan;10;1 kg;Sophia da Mata
+Hortifruti;Bergamota Ponkan;8;1 kg;Alexia Barros
+Hortifruti;Bergamota Ponkan;11;1 kg;Pedro Henrique Freitas
+Hortifruti;Cebola;14;1 kg;Thomas Freitas
+Hortifruti;Cebola;11;1 kg;Davi Luiz Lopes
+Hortifruti;Cebola;9;1 kg;Maria Cecília Almeida
+Hortifruti;Cenoura;14;1 kg;Milena Aragão
+Hortifruti;Cenoura;8;1 kg;Augusto das Neves
+Hortifruti;Cenoura;13;1 kg;Cecília Correia
+Hortifruti;Cenoura;9;1 kg; Diego Araújo
+Hortifruti;Laranja de Umbigo;10;1 kg;Kaique Novaes
+Hortifruti;Laranja de Umbigo;15;1 kg;Lucca da Mata
+Hortifruti;Laranja de Umbigo;10;1 kg;Thales Moura
+Hortifruti;Laranja de Umbigo;10;1 kg;Luiza da Mata
+Hortifruti;Laranja de Umbigo;12;1 kg;Raul Araújo
+Hortifruti;Laranja do Céu;13;1 kg;Alícia das Neves
+Hortifruti;Laranja do Céu;9;1 kg;Augusto das Neves
+Hortifruti;Laranja do Céu;11;1 kg; Diego Araújo
+Hortifruti;Maçã;9;1 kg;André da Cruz
+Hortifruti;Maçã;8;1 kg;Nathan Oliveira
+Hortifruti;Maçã;15;1 kg;Yago Castro
+Hortifruti;Maçã;11;1 kg;Vitor Hugo Viana
+Hortifruti;Maçã;12;1 kg;Helena Pereira
+Hortifruti;Maçã;8;1 kg;Ana Luiza Pires
+Hortifruti;Maçã;8;1 kg;Giovanna Mendes
+Hortifruti;Pêssego;10;1 kg;Enrico Novaes
+Hortifruti;Tangerina;9;1 kg;Gabriela Alves
+Hortifruti;Tangerina;12;1 kg;Alicia Campos
+Hortifruti;Tangerina;13;1 kg;Davi Luiz Lopes
+Hortifruti;Tangerina;15;1 kg;Yago Castro
+Hortifruti;Abacaxi;9;1 un;Augusto Cunha
+Hortifruti;Abacaxi;11;1 un; Maria Fernanda Rocha
+Hortifruti;Abacaxi;9;1 un;Lara Porto
+Hortifruti;Abacaxi;13;1 un;Nathan Oliveira
+Hortifruti;Abacaxi;10;1 un;Augusto Ribeiro
+Hortifruti;Nabo;8;1 un; Juan Ferreira
+Hortifruti;Nabo;14;1 un; Thiago Ramos
+Hortifruti;Nabo;12;1 un;Nina Moreira
+Hortifruti;Nabo;11;1 un;Fernando Santos
+Hortifruti;Nabo;14;1 un;Isaac Rezende
+Hortifruti;Nabo;9;1 un;Lucas da Cunha
+Hortifruti;Nabo;13;1 un;João Guilherme da Cruz
+Laticínio;Manteiga;7;100 g;Juan Freitas
+Laticínio;Manteiga;5;100 g;Cecília da Conceição
+Laticínio;Manteiga;7;100 g;Pedro Henrique Freitas
+Laticínio;Manteiga;5;100 g;Ana Sophia Costela
+Hortifruti;Alho;8;1 kg;Lorena Santos
+Hortifruti;Alho;13;1 kg;Cecília Correia
+Hortifruti;Alho;10;1 kg;Daniela da Cruz
+Hortifruti;Banana;8;1 kg;Luna Fernandes
+Hortifruti;Banana;9;1 kg;Lucca da Mata
+Hortifruti;Banana;12;1 kg;Ana Beatriz Souza
+Hortifruti;Banana;15;1 kg;Davi Luiz Lopes
+Hortifruti;Banana;13;1 kg;Felipe Ramos
+Hortifruti;Bergamota Caí;13;1 kg;Davi Luiz Lopes
+Hortifruti;Bergamota Caí;9;1 kg;Mirella Viana
+Hortifruti;Bergamota Caí;14;1 kg;Thales Moura
+Hortifruti;Bergamota Caí;11;1 kg;Nathan Oliveira
+Hortifruti;Bergamota Caí;12;1 kg;Francisco Oliveira
+Hortifruti;Bergamota Caí;12;1 kg;Fernando Vieira
+Hortifruti;Bergamota Caí;13;1 kg;Vitor Hugo Viana
+Hortifruti;Bergamota Caí;9;1 kg;Helena Pereira
+Hortifruti;Bergamota Caí;12;1 kg;Enzo Gabriel Nunes
+Hortifruti;Bergamota Caí;8;1 kg;Nina Moreira
+Hortifruti;Bergamota Caí;15;1 kg;Pedro Lucas Cardoso
+Hortifruti;Bergamota Caí;13;1 kg;Fernando Santos
+Hortifruti;Bergamota Caí;12;1 kg;Isaac Rezende
+Hortifruti;Bergamota Caí;9;1 kg;Sabrina Costa
+Hortifruti;Bergamota Ponkan;11;1 kg;Lorena Santos
+Hortifruti;Bergamota Ponkan;8;1 kg;João Pedro Costa
+Hortifruti;Bergamota Ponkan;13;1 kg;Daniela da Cruz
+Hortifruti;Cebola;12;1 kg;Kaique Novaes
+Hortifruti;Cenoura;9;1 kg;Luiza da Mata
+Hortifruti;Cenoura;10;1 kg;Vitor Hugo Viana
+Hortifruti;Cenoura;10;1 kg;Raul Araújo
+Hortifruti;Cenoura;13;1 kg;Otávio Moreira
+Hortifruti;Laranja de Umbigo;11;1 kg;Ana Laura Azevedo
+Hortifruti;Laranja de Umbigo;8;1 kg;Maria Luiza Costela
+Hortifruti;Laranja de Umbigo;8;1 kg;Augusto Ribeiro
+Hortifruti;Laranja de Umbigo;13;1 kg;Leonardo da Cruz
+Hortifruti;Laranja do Céu;15;1 kg;Ana Luiza Pires
+Hortifruti;Laranja do Céu;11;1 kg;Daniel Gonçalves
+Hortifruti;Laranja do Céu;14;1 kg;Isaac Rezende
+Hortifruti;Laranja do Céu;14;1 kg;Vitor Barbosa
+Hortifruti;Laranja do Céu;14;1 kg;Lucas da Cunha
+Hortifruti;Laranja do Céu;15;1 kg;Sabrina Costa
+Hortifruti;Laranja do Céu;8;1 kg;Ryan Cardoso
+Hortifruti;Laranja do Céu;9;1 kg;Lorena Santos
+Hortifruti;Laranja do Céu;12;1 kg; André da Rocha
+Hortifruti;Maçã;11;1 kg;Augusto Ribeiro
+Hortifruti;Maçã;10;1 kg; Nathan Ferreira
+Hortifruti;Maçã;13;1 kg;Vitor Gabriel Mendes
+Hortifruti;Maçã;8;1 kg;Vitor Barbosa
+Hortifruti;Maçã;9;1 kg;Mariana Campos
+Hortifruti;Maçã;10;1 kg;Agatha Rodrigues
+Hortifruti;Pêssego;11;1 kg;Luna Fernandes
+Hortifruti;Pêssego;13;1 kg;Alicia Campos
+Hortifruti;Pêssego;11;1 kg; Maria Fernanda Rocha
+Hortifruti;Tangerina;13;1 kg;Ana Beatriz Souza
+Hortifruti;Tangerina;8;1 kg;Luiza Ramos
+Hortifruti;Tangerina;12;1 kg;Enrico Novaes
+Hortifruti;Abacaxi;14;1 un;Luiza Ramos
+Hortifruti;Abacaxi;9;1 un;Enrico Novaes
+Hortifruti;Abacaxi;13;1 un; Joaquim Melo
+Hortifruti;Abacaxi;11;1 un; Luiz Miguel da Costa
+Hortifruti;Abacaxi;8;1 un;Bruno Pires
+Hortifruti;Abacaxi;8;1 un;Francisco Oliveira
+Hortifruti;Abacaxi;14;1 un;Yago Castro
+Hortifruti;Abacaxi;10;1 un;Pedro Henrique das Neves
+Hortifruti;Abacaxi;10;1 un;Vitor Hugo Viana
+Hortifruti;Abacaxi;14;1 un;Enzo Gabriel Nunes
+Hortifruti;Abacaxi;9;1 un;Milena Aragão
+Hortifruti;Abacaxi;15;1 un;Vinicius Moreira
+Hortifruti;Nabo;13;1 un; Luiz Miguel da Costa
+Hortifruti;Nabo;14;1 un;Francisco Oliveira
+Hortifruti;Nabo;11;1 un;Brenda Cardoso
+Hortifruti;Nabo;13;1 un;Luiza da Mata
+Hortifruti;Nabo;9;1 un; Cauã da Conceição
+Hortifruti;Nabo;14;1 un;Alícia das Neves
+Hortifruti;Nabo;8;1 un; Luiz Miguel Sales
+Hortifruti;Nabo;14;1 un;Mariana Campos
+Laticínio;Manteiga;7;100 g;Daniel Gonçalves
+Laticínio;Manteiga;9;100 g;Alexia Barros
+Laticínio;Manteiga;8;100 g;Augusto das Neves
+Laticínio;Manteiga;7;100 g;Gabriela da Rocha
+Laticínio;Manteiga;10;100 g;João Pedro Costa
+Laticínio;Manteiga;10;100 g;Larissa da Mata
+Laticínio;Manteiga;7;100 g;Danilo Cavalcanti
+Mel;Mel;14;200 g; Alexia da Rocha
+Mel;Mel;16;200 g;Alana Sales
+Mel;Mel;14;200 g;Danilo Cavalcanti
+Mel;Mel;10;200 g;Eduardo Jesus
+Mel;Mel;11;200 g;Davi Lucas Alves
+Mel;Mel;18;200 g;Fernanda Fernandes
+Mel;Mel;17;200 g;Alana Porto
+Laticínio;Nata Fresca;13;200 g;Alana Porto
+Laticínio;Nata Fresca;10;200 g;Alexia Barros
+Laticínio;Nata Fresca;13;200 g;Pedro Henrique Freitas
+Laticínio;Nata Fresca;12;200 g; Diego Araújo
+Laticínio;Nata Fresca;10;200 g; Alexia da Rocha
+Laticínio;Nata Fresca;12;200 g;Sophia Cavalcanti
+Laticínio;Nata Fresca;10;200 g;Breno das Neves
+Laticínio;Nata Fresca;12;200 g;Alexandre das Neves
+Laticínio;Nata Fresca;10;200 g;Agatha da Paz
+Laticínio;Nata Fresca;10;200 g;Matheus Teixeira
+Laticínio;Nata Fresca;13;200 g; Maria Luiza Caldeira
+Laticínio;Nata Fresca;11;200 g;Yasmin Freitas
+Laticínio;Nata Piá;11;200 g;Kaique Novaes
+Laticínio;Nata Piá;12;200 g;Thomas Freitas
+Laticínio;Nata Piá;11;200 g;Lucca da Mata
+Laticínio;Nata Piá;10;200 g; Maria Fernanda Rocha
+Laticínio;Nata Piá;12;200 g;Maria Cecília Almeida
+Laticínio;Nata Piá;10;200 g;Lara Porto
+Laticínio;Nata Piá;10;200 g;Nathan Oliveira
+Laticínio;Nata Piá;13;200 g; Juan Ferreira
+Laticínio;Nata Piá;10;200 g;Fernando Vieira
+Laticínio;Nata Piá;10;200 g;Leonardo da Cruz
+Laticínio;Nata Santa Clara;11;200 g;Ana Luiza Pires
+Laticínio;Nata Santa Clara;10;200 g;Francisco Barbosa
+Laticínio;Nata Santa Clara;12;200 g;Fernando Santos
+Laticínio;Nata Santa Clara;12;200 g;Agatha Rodrigues
+Laticínio;Nata Santa Clara;11;200 g;João Vitor Sales
+Laticínio;Nata Santa Clara;10;200 g;Joaquim Cavalcanti
+Laticínio;Nata Santa Clara;13;200 g;Lucca Cavalcanti
+Laticínio;Nata Santa Clara;11;200 g;André Campos
+Laticínio;Nata Santa Clara;11;200 g;Pedro Henrique Freitas
+Laticínio;Nata Santa Clara;13;200 g;Natália da Costa
+Laticínio;Nata Santa Clara;11;200 g;Larissa da Mata
+Laticínio;Nata Santa Clara;12;200 g;Breno das Neves
+Laticínio;Nata Santa Clara;12;200 g;Maria Alice Correia
+Laticínio;Nata Santa Clara;12;200 g; Isadora Nogueira
+Laticínio;Nata Tirol;11;200 g;Valentina Ferreira
+Laticínio;Nata Tirol;12;200 g;Juliana Rocha
+Hortifruti;Alho;14;1 kg;Laura Costela
+Hortifruti;Alho;15;1 kg;Yago Peixoto
+Hortifruti;Alho;12;1 kg; André da Rocha
+Hortifruti;Alho;11;1 kg; Diego Araújo
+Hortifruti;Banana;11;1 kg; Joaquim Melo
+Hortifruti;Banana;11;1 kg;Mirella Viana
+Hortifruti;Bergamota Caí;14;1 kg;Felipe Ramos
+Hortifruti;Bergamota Caí;14;1 kg; Luiz Miguel da Costa
+Hortifruti;Bergamota Caí;8;1 kg; Pietra Lima
+Hortifruti;Bergamota Caí;13;1 kg;Brenda Cardoso
+Hortifruti;Bergamota Caí;11;1 kg;Yago Castro
+Hortifruti;Bergamota Caí;14;1 kg;Pedro Henrique das Neves
+Hortifruti;Bergamota Caí;8;1 kg;Julia Dias
+Hortifruti;Bergamota Caí;10;1 kg;Vitória das Neves
+Hortifruti;Bergamota Caí;10;1 kg;Francisco Barbosa
+Hortifruti;Bergamota Ponkan;11;1 kg;Bryan Mendes
+Hortifruti;Bergamota Ponkan;9;1 kg;Giovanna Lima
+Hortifruti;Bergamota Ponkan;15;1 kg;Ryan Cardoso
+Hortifruti;Bergamota Ponkan;9;1 kg;Giovanna Mendes
+Hortifruti;Bergamota Ponkan;8;1 kg; André da Rocha
+Hortifruti;Cebola;8;1 kg;João Miguel da Costa
+Hortifruti;Cebola;9;1 kg;Lara Porto
+Hortifruti;Cenoura;13;1 kg; Juan Ferreira
+Hortifruti;Cenoura;15;1 kg;Augusto Ribeiro
+Hortifruti;Cenoura;9;1 kg;Daniel Gonçalves
+Hortifruti;Cenoura;13;1 kg;Alexia Barros
+Hortifruti;Cenoura;12;1 kg;Lorena Santos
+Hortifruti;Cenoura;10;1 kg;Cecília da Conceição
+Hortifruti;Laranja de Umbigo;11;1 kg;Matheus Nogueira
+Hortifruti;Laranja de Umbigo;12;1 kg;Ana Beatriz Souza
+Hortifruti;Laranja de Umbigo;13;1 kg;Gabriela Alves
+Hortifruti;Laranja de Umbigo;12;1 kg;Lara Porto
+Hortifruti;Laranja de Umbigo;12;1 kg;Bruno Pires
+Hortifruti;Laranja de Umbigo;11;1 kg;Francisco Oliveira
+Hortifruti;Laranja do Céu;12;1 kg; Luiz Miguel Sales
+Hortifruti;Laranja do Céu;11;1 kg;Maysa da Conceição
+Hortifruti;Laranja do Céu;15;1 kg; Ana Rezende
+Hortifruti;Laranja do Céu;12;1 kg;Bryan Mendes
+Hortifruti;Laranja do Céu;11;1 kg;Laura Costela
+Hortifruti;Laranja do Céu;10;1 kg;Agatha Rodrigues
+Hortifruti;Laranja do Céu;15;1 kg;João Vitor Sales
+Hortifruti;Laranja do Céu;14;1 kg;Yago Peixoto
+Hortifruti;Laranja do Céu;15;1 kg;Maria Gonçalves
+Hortifruti;Laranja do Céu;10;1 kg;Juan Freitas
+Hortifruti;Laranja do Céu;13;1 kg;Otávio Moreira
+Hortifruti;Maçã;14;1 kg;Bruno Pires
+Hortifruti;Maçã;11;1 kg;Francisco Oliveira
+Hortifruti;Maçã;14;1 kg; Thiago Ramos
+Hortifruti;Maçã;14;1 kg;Nina Moreira
+Hortifruti;Maçã;14;1 kg;Vinicius Moreira
+Hortifruti;Maçã;12;1 kg;Diego da Conceição
+Hortifruti;Maçã;10;1 kg;Lucas da Cunha
+Hortifruti;Maçã;13;1 kg;Paulo Novaes
+Hortifruti;Pêssego;9;1 kg;Thomas Freitas
+Hortifruti;Pêssego;14;1 kg;João Felipe Cruz
+Hortifruti;Pêssego;13;1 kg; Joaquim Melo
+Hortifruti;Abacaxi;15;1 un;Manuela Novaes
+Hortifruti;Abacaxi;14;1 un;Alicia Campos
+Hortifruti;Abacaxi;11;1 un;Isabelly da Mata
+Hortifruti;Abacaxi;10;1 un;João Miguel da Costa
+Hortifruti;Abacaxi;9;1 un;Raquel Azevedo
+Hortifruti;Abacaxi;11;1 un;Helena Pereira
+Hortifruti;Abacaxi;9;1 un;Nina Moreira
+Hortifruti;Abacaxi;8;1 un; Nathan Ferreira
+Hortifruti;Nabo;14;1 un; Pietra Lima
+Hortifruti;Nabo;14;1 un;Nathan Oliveira
+Hortifruti;Nabo;10;1 un;Milena Aragão
+Hortifruti;Nabo;10;1 un;Julia Dias
+Hortifruti;Nabo;13;1 un;Vitória das Neves
+Hortifruti;Nabo;12;1 un;Francisco Barbosa
+Hortifruti;Nabo;15;1 un;Maysa da Conceição
+Hortifruti;Nabo;13;1 un;Sabrina Costa
+Mel;Mel;13;200 g;Felipe Freitas
+Mel;Mel;13;200 g;Ana Clara Silva
+Mel;Mel;14;200 g;Francisco da Paz
+Mel;Mel;11;200 g; Stephany Pereira
+Laticínio;Nata Fresca;12;200 g;Daniela da Cruz
+Laticínio;Nata Fresca;13;200 g;Isabelly Moura
+Laticínio;Nata Fresca;12;200 g;Miguel Ramos
+Laticínio;Nata Fresca;10;200 g;Ana Clara Silva
+Laticínio;Nata Fresca;10;200 g; Stephany da Rocha
+Laticínio;Nata Fresca;12;200 g;Maria Sophia Gonçalves
+Laticínio;Nata Fresca;12;200 g;Francisco da Paz
+Laticínio;Nata Fresca;10;200 g;Juliana Rocha
+Laticínio;Nata Fresca;13;200 g;Marcos Vinicius Araújo
+Laticínio;Nata Fresca;10;200 g;Eduardo Jesus
+Laticínio;Nata Fresca;10;200 g;Clara Sales
+Laticínio;Nata Piá;12;200 g;Heitor Aragão
+Laticínio;Nata Piá;11;200 g;Erick Moreira
+Laticínio;Nata Piá;11;200 g;Eduardo Nunes
+Laticínio;Nata Piá;13;200 g;Cauã das Neves
+Laticínio;Nata Piá;12;200 g;Matheus Nogueira
+Laticínio;Nata Piá;13;200 g;Milena Costa
+Laticínio;Nata Piá;13;200 g;Luiza Ramos
+Laticínio;Nata Piá;11;200 g;Alicia Campos
+Laticínio;Nata Piá;12;200 g;Davi Luiz Lopes
+Laticínio;Nata Piá;13;200 g;Maria Luiza Costela
+Laticínio;Nata Piá;12;200 g; Pietra Lima
+Laticínio;Nata Piá;10;200 g;Yago Castro
+Laticínio;Nata Piá;13;200 g;Luiza da Mata
+Laticínio;Nata Piá;11;200 g;Pedro Henrique das Neves
+Laticínio;Nata Piá;11;200 g;Helena Pereira
+Laticínio;Nata Santa Clara;12;200 g;Raul Araújo
+Laticínio;Nata Santa Clara;13;200 g; Nathan Ferreira
+Laticínio;Nata Santa Clara;10;200 g;Pedro Lucas Cardoso
+Laticínio;Nata Santa Clara;13;200 g;Vitor Gabriel Mendes
+Laticínio;Nata Santa Clara;13;200 g;Vitória das Neves
+Laticínio;Nata Santa Clara;11;200 g;Alícia das Neves
+Laticínio;Nata Santa Clara;11;200 g;Alexia Barros
+Laticínio;Nata Santa Clara;10;200 g; Alice Teixeira
+Laticínio;Nata Santa Clara;12;200 g;Leonardo Teixeira
+Laticínio;Nata Santa Clara;12;200 g; André da Rocha
+Laticínio;Nata Santa Clara;10;200 g;Otávio Moreira
+Laticínio;Nata Santa Clara;12;200 g;João Pedro Costa
+Laticínio;Nata Santa Clara;11;200 g;Cecília Correia
+Laticínio;Nata Santa Clara;13;200 g;Isabelly Moura
+Laticínio;Nata Santa Clara;12;200 g;Sophia Cavalcanti
+Laticínio;Nata Santa Clara;11;200 g;Luigi Ramos
+Laticínio;Nata Santa Clara;10;200 g;Ana Beatriz Santos
+Laticínio;Nata Tirol;13;200 g;Danilo Cavalcanti
+Laticínio;Nata Tirol;13;200 g;Alexandre das Neves
+Laticínio;Nata Tirol;12;200 g;Francisco da Paz
+Laticínio;Nata Tirol;12;200 g;Matheus Nogueira
+Hortifruti;Alho;12;1 kg;Paulo Novaes
+Hortifruti;Alho;11;1 kg; Alice Teixeira
+Hortifruti;Alho;14;1 kg;Maria Gonçalves
+Hortifruti;Alho;11;1 kg;Lucca Cavalcanti
+Hortifruti;Banana;9;1 kg;Alicia Campos
+Hortifruti;Bergamota Caí;10;1 kg;João Miguel da Costa
+Hortifruti;Bergamota Caí;13;1 kg;Milena Aragão
+Hortifruti;Bergamota Caí;11;1 kg;Maysa da Conceição
+Hortifruti;Bergamota Ponkan;9;1 kg;Paulo Novaes
+Hortifruti;Bergamota Ponkan;10;1 kg;Alana Porto
+Hortifruti;Bergamota Ponkan;11;1 kg;Agatha Rodrigues
+Hortifruti;Cebola;14;1 kg;Lucca da Mata
+Hortifruti;Cebola;9;1 kg;Vitor Hugo da Mata
+Hortifruti;Cebola;14;1 kg;Gabriela Alves
+Hortifruti;Cebola;10;1 kg;Felipe Ramos
+Hortifruti;Cebola;12;1 kg;Raquel Azevedo
+Hortifruti;Cenoura;11;1 kg;Fernando Vieira
+Hortifruti;Cenoura;14;1 kg;Vinicius Moreira
+Hortifruti;Cenoura;8;1 kg;Vitor Gabriel Mendes
+Hortifruti;Cenoura;12;1 kg;Juan Freitas
+Hortifruti;Cenoura;13;1 kg; André da Rocha
+Hortifruti;Laranja de Umbigo;11;1 kg;Milena Costa
+Hortifruti;Laranja de Umbigo;9;1 kg;Augusto Cunha
+Hortifruti;Laranja de Umbigo;8;1 kg; Maria Fernanda Rocha
+Hortifruti;Laranja de Umbigo;13;1 kg;Felipe Ramos
+Hortifruti;Laranja de Umbigo;13;1 kg; Luiz Miguel da Costa
+Hortifruti;Laranja de Umbigo;11;1 kg;Fernando Vieira
+Hortifruti;Laranja de Umbigo;10;1 kg; Cauã da Conceição
+Hortifruti;Laranja do Céu;14;1 kg;Vitória das Neves
+Hortifruti;Laranja do Céu;10;1 kg;Giovanna Lima
+Hortifruti;Laranja do Céu;15;1 kg;Alexia Barros
+Hortifruti;Maçã;10;1 kg;Brenda Cardoso
+Hortifruti;Maçã;10;1 kg;Fernando Vieira
+Hortifruti;Maçã;12;1 kg;Pedro Lucas Cardoso
+Hortifruti;Maçã;8;1 kg;Fernando Santos
+Hortifruti;Maçã;12;1 kg;João Guilherme Ramos
+Hortifruti;Maçã;15;1 kg; Luiz Miguel Sales
+Hortifruti;Maçã;15;1 kg;Maysa da Conceição
+Hortifruti;Maçã;14;1 kg; Ana Rezende
+Hortifruti;Maçã;10;1 kg;Laura Costela
+Hortifruti;Pêssego;15;1 kg;Luiza Ramos
+Hortifruti;Tangerina;12;1 kg;Manuela Novaes
+Hortifruti;Tangerina;8;1 kg; Joaquim Melo
+Hortifruti;Tangerina;13;1 kg;Isabelly da Mata
+Hortifruti;Tangerina;8;1 kg;Brenda Cardoso
+Hortifruti;Abacaxi;11;1 un;Matheus Nogueira
+Hortifruti;Abacaxi;14;1 un;Ana Beatriz Souza
+Hortifruti;Abacaxi;12;1 un;Thales Moura
+Hortifruti;Beterraba;13;1 un; Diego Araújo
+Hortifruti;Beterraba;13;1 un;Isabelly Moura
+Hortifruti;Beterraba;13;1 un;Sophia Cavalcanti
+Hortifruti;Beterraba;14;1 un;Ana Sophia Costela
+Hortifruti;Beterraba;14;1 un; Stephany da Rocha
+Hortifruti;Beterraba;13;1 un;Alexandre das Neves
+Hortifruti;Beterraba;13;1 un;Juliana Rocha
+Hortifruti;Beterraba;15;1 un;Matheus Teixeira
+Hortifruti;Beterraba;15;1 un;João Guilherme da Cunha
+Hortifruti;Beterraba;15;1 un;Yasmin Freitas
+Hortifruti;Nabo;13;1 un;Yago Castro
+Hortifruti;Nabo;10;1 un;Vinicius Moreira
+Hortifruti;Nabo;13;1 un; Nathan Ferreira
+Hortifruti;Nabo;9;1 un;Diego da Conceição
+Hortifruti;Nabo;15;1 un;Bryan Mendes
+Hortifruti;Nabo;13;1 un;Sophia da Mata
+Hortifruti;Nabo;9;1 un;Giovanna Lima
+Laticínio;Manteiga;18;200 g;Vinicius da Paz
+Laticínio;Manteiga;12;200 g;Luna Fernandes
+Laticínio;Manteiga;15;200 g;Vitor Hugo da Mata
+Laticínio;Manteiga;18;200 g; Maria Fernanda Rocha
+Laticínio;Manteiga;16;200 g;Luiz Otávio Porto
+Laticínio;Manteiga;16;200 g;Maria Luiza Costela
+Laticínio;Manteiga;19;200 g; Pietra Lima
+Laticínio;Manteiga;12;200 g;Bruno Pires
+Laticínio;Manteiga;19;200 g;Davi Lucca Teixeira
+Laticínio;Manteiga;16;200 g; Thiago Ramos
+Mel;Mel;14;200 g;Olivia Almeida
+Mel;Mel;15;200 g;Maria Alice Correia
+Mel;Mel;19;200 g; Isadora Nogueira
+Mel;Mel;19;200 g;Juliana Rocha
+Mel;Mel;12;200 g;Agatha da Paz
+Mel;Mel;13;200 g; Maria Luiza Caldeira
+Mel;Mel;11;200 g;João Guilherme da Cunha
+Laticínio;Nata Fresca;10;200 g;Matheus Correia
+Laticínio;Nata Fresca;12;200 g;Agatha Rodrigues
+Laticínio;Nata Fresca;11;200 g;Lorena Santos
+Laticínio;Nata Fresca;13;200 g; Alice Teixeira
+Laticínio;Nata Fresca;13;200 g;João Vitor Sales
+Laticínio;Nata Fresca;12;200 g; André da Rocha
+Laticínio;Nata Fresca;11;200 g;Natália da Costa
+Laticínio;Nata Fresca;13;200 g;João Pedro Costa
+Laticínio;Nata Fresca;12;200 g;Maria Alice Correia
+Laticínio;Nata Fresca;10;200 g;Alana Sales
+Laticínio;Nata Fresca;10;200 g;Felipe Freitas
+Laticínio;Nata Fresca;11;200 g;Ana Beatriz Santos
+Laticínio;Nata Fresca;12;200 g;Ana Sophia Costela
+Laticínio;Nata Fresca;10;200 g; Isabelly Oliveira
+Laticínio;Nata Fresca;11;200 g;Valentina Ferreira
+Laticínio;Nata Fresca;10;200 g;Vinicius da Paz
+Laticínio;Nata Fresca;12;200 g; Stephany Pereira
+Laticínio;Nata Fresca;12;200 g;João Guilherme da Cunha
+Laticínio;Nata Piá;13;200 g;João Felipe Cruz
+Laticínio;Nata Piá;12;200 g;Ana Beatriz Souza
+Laticínio;Nata Piá;13;200 g; Joaquim Melo
+Laticínio;Nata Piá;11;200 g;João Miguel da Costa
+Laticínio;Nata Piá;11;200 g;Felipe Ramos
+Laticínio;Nata Piá;13;200 g;Thales Moura
+Laticínio;Nata Piá;12;200 g;Raquel Azevedo
+Laticínio;Nata Piá;13;200 g;André da Cruz
+Laticínio;Nata Piá;13;200 g;Bruno Pires
+Laticínio;Nata Piá;12;200 g;Davi Lucca Teixeira
+Laticínio;Nata Piá;12;200 g;Augusto Ribeiro
+Laticínio;Nata Piá;10;200 g;Nina Moreira
+Laticínio;Nata Piá;13;200 g;Milena Aragão
+Laticínio;Nata Santa Clara;12;200 g; Cauã da Conceição
+Laticínio;Nata Santa Clara;13;200 g;Julia Dias
+Laticínio;Nata Santa Clara;12;200 g;Diego da Conceição
+Laticínio;Nata Santa Clara;10;200 g;João Guilherme Ramos
+Laticínio;Nata Santa Clara;13;200 g;Yago Peixoto
+Laticínio;Nata Santa Clara;13;200 g;Gabriela da Rocha
+Laticínio;Nata Santa Clara;13;200 g; Alexia da Rocha
+Laticínio;Nata Santa Clara;12;200 g;Olivia Almeida
+Laticínio;Nata Santa Clara;13;200 g;Eduarda da Conceição
+Laticínio;Nata Santa Clara;13;200 g;Felipe Freitas
+Laticínio;Nata Santa Clara;13;200 g;Ana Sophia Costela
+Laticínio;Nata Santa Clara;12;200 g;Isabel Mendes
+Laticínio;Nata Tirol;11;200 g; Isabelly Oliveira
+Laticínio;Nata Tirol;11;200 g;Ana Laura Azevedo
+Hortifruti;Alho;8;1 kg;Juan Freitas
+Hortifruti;Alho;8;1 kg;Leonardo Teixeira
+Hortifruti;Alho;9;1 kg;Cecília da Conceição
+Hortifruti;Banana;10;1 kg;Maria Luiza Costela
+Hortifruti;Banana;12;1 kg;João Miguel da Costa
+Hortifruti;Banana;12;1 kg;Thales Moura
+Hortifruti;Bergamota Caí;10;1 kg;André da Cruz
+Hortifruti;Bergamota Caí;10;1 kg;Leonardo da Cruz
+Hortifruti;Bergamota Caí;11;1 kg; Nathan Ferreira
+Hortifruti;Bergamota Ponkan;12;1 kg;João Guilherme da Cruz
+Hortifruti;Bergamota Ponkan;12;1 kg;Laura Costela
+Hortifruti;Cebola;11;1 kg;Manuela Novaes
+Hortifruti;Cebola;11;1 kg;Augusto Cunha
+Hortifruti;Cenoura;9;1 kg; Thiago Ramos
+Hortifruti;Cenoura;15;1 kg;Pedro Henrique das Neves
+Hortifruti;Cenoura;13;1 kg;Helena Pereira
+Hortifruti;Cenoura;14;1 kg;Enzo Gabriel Nunes
+Hortifruti;Cenoura;12;1 kg;Nina Moreira
+Hortifruti;Cenoura;10;1 kg;Leonardo da Cruz
+Hortifruti;Cenoura;15;1 kg;Pedro Lucas Cardoso
+Hortifruti;Cenoura;9;1 kg;Ana Luiza Pires
+Hortifruti;Cenoura;14;1 kg;Vitória das Neves
+Hortifruti;Cenoura;11;1 kg;Francisco Barbosa
+Hortifruti;Cenoura;12;1 kg;Leonardo Teixeira
+Hortifruti;Cenoura;9;1 kg;Joaquim Cavalcanti
+Hortifruti;Cenoura;10;1 kg;Pedro Henrique Freitas
+Hortifruti;Laranja de Umbigo;11;1 kg;Thomas Freitas
+Hortifruti;Laranja de Umbigo;10;1 kg;João Felipe Cruz
+Hortifruti;Laranja de Umbigo;14;1 kg;Alicia Campos
+Hortifruti;Laranja de Umbigo;9;1 kg;Luiz Otávio Porto
+Hortifruti;Laranja de Umbigo;15;1 kg;Nathan Oliveira
+Hortifruti;Laranja do Céu;11;1 kg;Alana Porto
+Hortifruti;Laranja do Céu;11;1 kg; Alice Teixeira
+Hortifruti;Laranja do Céu;11;1 kg;Lucca Cavalcanti
+Hortifruti;Laranja do Céu;8;1 kg;Gabriela da Rocha
+Hortifruti;Laranja do Céu;13;1 kg;João Pedro Costa
+Hortifruti;Laranja do Céu;10;1 kg;Larissa da Mata
+Hortifruti;Maçã;13;1 kg;Davi Lucca Teixeira
+Hortifruti;Maçã;14;1 kg;Luiza da Mata
+Hortifruti;Maçã;15;1 kg;Alícia das Neves
+Hortifruti;Maçã;9;1 kg;Matheus Correia
+Hortifruti;Pêssego;8;1 kg;Vitor Hugo da Mata
+Hortifruti;Pêssego;13;1 kg;Manuela Novaes
+Hortifruti;Tangerina;11;1 kg; Thiago Ramos
+Hortifruti;Abacaxi;9;1 un;Kaique Novaes
+Hortifruti;Abacaxi;14;1 un;Gabriela Alves
+Hortifruti;Abacaxi;10;1 un;Brenda Cardoso
+Hortifruti;Abacaxi;12;1 un;Raul Araújo
+Hortifruti;Beterraba;13;1 un; Alexia da Rocha
+Hortifruti;Beterraba;15;1 un;Alana Sales
+Hortifruti;Beterraba;12;1 un; Isadora Nogueira
+Hortifruti;Beterraba;15;1 un;Felipe Freitas
+Hortifruti;Beterraba;12;1 un;Miguel Ramos
+Hortifruti;Beterraba;13;1 un; Isabelly Oliveira
+Hortifruti;Beterraba;12;1 un;Valentina Ferreira
+Hortifruti;Beterraba;12;1 un;Marcos Vinicius Araújo
+Hortifruti;Beterraba;14;1 un;Nicolas Cardoso
+Hortifruti;Beterraba;14;1 un;Eduardo Jesus
+Hortifruti;Beterraba;15;1 un; Maria Luiza Caldeira
+Hortifruti;Beterraba;12;1 un;Davi Lucas Alves
+Hortifruti;Beterraba;13;1 un;Heitor Aragão
+Hortifruti;Nabo;14;1 un;André da Cruz
+Hortifruti;Nabo;12;1 un;Helena Pereira
+Hortifruti;Nabo;12;1 un;Pedro Lucas Cardoso
+Hortifruti;Nabo;14;1 un;João Guilherme Ramos
+Hortifruti;Nabo;12;1 un;Paulo Novaes
+Laticínio;Manteiga;13;200 g;Milena Costa
+Laticínio;Manteiga;14;200 g;Enrico Novaes
+Laticínio;Manteiga;14;200 g;Davi Luiz Lopes
+Laticínio;Manteiga;20;200 g;Raquel Azevedo
+Laticínio;Manteiga;12;200 g; Juan Ferreira
+Laticínio;Manteiga;15;200 g;Yago Castro
+Mel;Mel;10;200 g;Sophia Cavalcanti
+Mel;Mel;11;200 g;Eduarda da Conceição
+Mel;Mel;18;200 g;Alexandre das Neves
+Mel;Mel;11;200 g;Matheus Correia
+Mel;Mel;20;200 g;Laura Costela
+Laticínio;Nata Fresca;12;200 g;Laura Costela
+Laticínio;Nata Fresca;13;200 g;Otávio Moreira
+Laticínio;Nata Fresca;12;200 g;Cecília Correia
+Laticínio;Nata Fresca;12;200 g;Larissa da Mata
+Laticínio;Nata Fresca;13;200 g;Olivia Almeida
+Laticínio;Nata Fresca;11;200 g;Eduarda da Conceição
+Laticínio;Nata Fresca;12;200 g;Luigi Ramos
+Laticínio;Nata Fresca;12;200 g; Isadora Nogueira
+Laticínio;Nata Fresca;10;200 g;Isabel Mendes
+Laticínio;Nata Fresca;12;200 g;Danilo Cavalcanti
+Laticínio;Nata Fresca;12;200 g;Nicolas Cardoso
+Laticínio;Nata Fresca;13;200 g;Davi Lucas Alves
+Laticínio;Nata Fresca;11;200 g;Fernanda Fernandes
+Laticínio;Nata Piá;10;200 g; João Gabriel Correia
+Laticínio;Nata Piá;10;200 g;Lívia da Cunha
+Laticínio;Nata Piá;11;200 g;Ana Laura Azevedo
+Laticínio;Nata Piá;10;200 g;Luna Fernandes
+Laticínio;Nata Piá;13;200 g;Vitor Hugo da Mata
+Laticínio;Nata Piá;10;200 g;Manuela Novaes
+Laticínio;Nata Piá;13;200 g;Augusto Cunha
+Laticínio;Nata Piá;13;200 g;Gabriela Alves
+Laticínio;Nata Piá;11;200 g;Enrico Novaes
+Laticínio;Nata Piá;10;200 g;Isabelly da Mata
+Laticínio;Nata Piá;13;200 g; Luiz Miguel da Costa
+Laticínio;Nata Piá;11;200 g;Francisco Oliveira
+Laticínio;Nata Piá;12;200 g;Brenda Cardoso
+Laticínio;Nata Piá;12;200 g; Thiago Ramos
+Laticínio;Nata Piá;12;200 g;Vitor Hugo Viana
+Laticínio;Nata Piá;12;200 g;Enzo Gabriel Nunes
+Laticínio;Nata Santa Clara;12;200 g;Vinicius Moreira
+Laticínio;Nata Santa Clara;11;200 g;Daniel Gonçalves
+Laticínio;Nata Santa Clara;10;200 g;Lorena Santos
+Laticínio;Nata Santa Clara;11;200 g;Maria Gonçalves
+Laticínio;Nata Santa Clara;12;200 g;Juan Freitas
+Laticínio;Nata Santa Clara;13;200 g;Augusto das Neves
+Laticínio;Nata Santa Clara;12;200 g;Cecília da Conceição
+Laticínio;Nata Santa Clara;12;200 g;Daniela da Cruz
+Laticínio;Nata Santa Clara;10;200 g; Diego Araújo
+Laticínio;Nata Santa Clara;10;200 g;Alana Sales
+Laticínio;Nata Santa Clara;13;200 g;Miguel Ramos
+Laticínio;Nata Tirol;10;200 g;Ana Clara Silva
+Laticínio;Nata Tirol;12;200 g; Stephany da Rocha
+Laticínio;Nata Tirol;10;200 g;Maria Sophia Gonçalves
+Laticínio;Nata Tirol;11;200 g;Vinicius da Paz
+Hortifruti;Alho;13;1 kg;Ryan Cardoso
+Hortifruti;Alho;12;1 kg;Alana Porto
+Hortifruti;Alho;11;1 kg;João Vitor Sales
+Hortifruti;Alho;9;1 kg;Otávio Moreira
+Hortifruti;Alho;14;1 kg; Alexia da Rocha
+Hortifruti;Banana;15;1 kg; Luiz Miguel da Costa
+Hortifruti;Bergamota Caí;13;1 kg;Luiza da Mata
+Hortifruti;Bergamota Caí;10;1 kg;Augusto Ribeiro
+Hortifruti;Bergamota Caí;8;1 kg; Cauã da Conceição
+Hortifruti;Bergamota Caí;12;1 kg;Alícia das Neves
+Hortifruti;Bergamota Caí;14;1 kg;Lucas da Cunha
+Hortifruti;Bergamota Ponkan;9;1 kg;João Vitor Sales
+Hortifruti;Cebola;12;1 kg;Matheus Nogueira
+Hortifruti;Cebola;14;1 kg;Milena Costa
+Hortifruti;Cebola;15;1 kg;João Felipe Cruz
+Hortifruti;Cebola;9;1 kg;Ana Beatriz Souza
+Hortifruti;Cebola;14;1 kg;Luiza Ramos
+Hortifruti;Cebola;10;1 kg;Isabelly da Mata
+Hortifruti;Cebola;9;1 kg;Davi Lucca Teixeira
+Hortifruti;Cenoura;11;1 kg;Nathan Oliveira
+Hortifruti;Cenoura;14;1 kg;Yago Castro
+Hortifruti;Cenoura;12;1 kg;Alícia das Neves
+Hortifruti;Cenoura;14;1 kg;João Guilherme Ramos
+Hortifruti;Cenoura;11;1 kg;Lucca Cavalcanti
+Hortifruti;Cenoura;13;1 kg;Gabriela da Rocha
+Hortifruti;Laranja de Umbigo;9;1 kg;Davi Luiz Lopes
+Hortifruti;Laranja de Umbigo;12;1 kg;Mirella Viana
+Hortifruti;Laranja de Umbigo;8;1 kg; Pietra Lima
+Hortifruti;Laranja de Umbigo;15;1 kg;Maria Cecília Almeida
+Hortifruti;Laranja de Umbigo;10;1 kg;Yago Castro
+Hortifruti;Laranja de Umbigo;14;1 kg;Pedro Henrique das Neves
+Hortifruti;Laranja de Umbigo;14;1 kg;Vitor Hugo Viana
+Hortifruti;Laranja de Umbigo;15;1 kg;Vinicius Moreira
+Hortifruti;Laranja do Céu;8;1 kg;Matheus Correia
+Hortifruti;Laranja do Céu;8;1 kg;Cecília da Conceição
+Hortifruti;Maçã;13;1 kg;Enzo Gabriel Nunes
+Hortifruti;Maçã;9;1 kg;Vitória das Neves
+Hortifruti;Maçã;13;1 kg;Bryan Mendes
+Hortifruti;Maçã;9;1 kg;Sophia da Mata
+Hortifruti;Maçã;13;1 kg;Ryan Cardoso
+Hortifruti;Pêssego;10;1 kg;Gabriela Alves
+Hortifruti;Tangerina;10;1 kg;Vitor Hugo da Mata
+Hortifruti;Tangerina;14;1 kg;Augusto Cunha
+Hortifruti;Abacaxi;13;1 un;Ana Laura Azevedo
+Hortifruti;Abacaxi;14;1 un;Thomas Freitas
+Hortifruti;Abacaxi;10;1 un;João Felipe Cruz
+Hortifruti;Abacaxi;13;1 un;Felipe Ramos
+Hortifruti;Abacaxi;10;1 un; Pietra Lima
+Hortifruti;Abacaxi;15;1 un;Maria Cecília Almeida
+Hortifruti;Abacaxi;15;1 un; Thiago Ramos
+Hortifruti;Abacaxi;11;1 un;Fernando Vieira
+Hortifruti;Beterraba;14;1 un;Larissa da Mata
+Hortifruti;Beterraba;14;1 un;Breno das Neves
+Hortifruti;Beterraba;15;1 un;Luigi Ramos
+Hortifruti;Beterraba;12;1 un;Isabel Mendes
+Hortifruti;Beterraba;12;1 un;Danilo Cavalcanti
+Hortifruti;Beterraba;14;1 un;Ana Clara Silva
+Hortifruti;Beterraba;13;1 un;Francisco da Paz
+Hortifruti;Beterraba;13;1 un;Vinicius da Paz
+Hortifruti;Beterraba;15;1 un; Stephany Pereira
+Hortifruti;Beterraba;12;1 un;Lívia da Cunha
+Hortifruti;Beterraba;14;1 un;Eduardo Nunes
+Hortifruti;Beterraba;15;1 un;Cauã das Neves
+Hortifruti;Nabo;10;1 un;Raquel Azevedo
+Hortifruti;Nabo;15;1 un;Fernando Vieira
+Hortifruti;Nabo;8;1 un;Vitor Hugo Viana
+Hortifruti;Nabo;12;1 un;Augusto Ribeiro
+Hortifruti;Nabo;8;1 un;Ana Luiza Pires
+Laticínio;Manteiga;18;200 g;Mirella Viana
+Laticínio;Manteiga;20;200 g;João Miguel da Costa
+Laticínio;Manteiga;17;200 g;Thales Moura
+Laticínio;Manteiga;15;200 g;Lara Porto
+Laticínio;Manteiga;18;200 g;Milena Aragão
+Mel;Mel;17;200 g;Isabelly Moura
+Mel;Mel;14;200 g;Luigi Ramos
+Mel;Mel;18;200 g;Miguel Ramos
+Mel;Mel;11;200 g;Vinicius da Paz
+Mel;Mel;19;200 g;Heitor Aragão
+Hortifruti;Alho;11;1 kg;Giovanna Mendes
+Hortifruti;Alho;8;1 kg;Alexia Barros
+Hortifruti;Alho;15;1 kg;Joaquim Cavalcanti
+Hortifruti;Alho;10;1 kg;Natália da Costa
+Hortifruti;Banana;12;1 kg;Vitor Hugo da Mata
+Hortifruti;Banana;13;1 kg;Gabriela Alves
+Hortifruti;Banana;13;1 kg;Isabelly da Mata
+Hortifruti;Bergamota Caí;10;1 kg;Isabelly da Mata
+Hortifruti;Bergamota Caí;15;1 kg;Maria Luiza Costela
+Hortifruti;Bergamota Caí;11;1 kg;Maria Cecília Almeida
+Hortifruti;Bergamota Caí;8;1 kg; Juan Ferreira
+Hortifruti;Bergamota Caí;15;1 kg; Thiago Ramos
+Hortifruti;Bergamota Caí;11;1 kg;Raul Araújo
+Hortifruti;Bergamota Caí;14;1 kg;João Guilherme Ramos
+Hortifruti;Bergamota Caí;13;1 kg;Mariana Campos
+Hortifruti;Bergamota Ponkan;12;1 kg;Matheus Correia
+Hortifruti;Bergamota Ponkan;13;1 kg;Natália da Costa
+Hortifruti;Bergamota Ponkan;10;1 kg;Cecília Correia
+Hortifruti;Cebola;15;1 kg;Ana Laura Azevedo
+Hortifruti;Cebola;15;1 kg;Alicia Campos
+Hortifruti;Cebola;10;1 kg; Maria Fernanda Rocha
+Hortifruti;Cebola;12;1 kg;Enrico Novaes
+Hortifruti;Cebola;13;1 kg;Maria Luiza Costela
+Hortifruti;Cebola;11;1 kg;Thales Moura
+Hortifruti;Cebola;11;1 kg; Luiz Miguel da Costa
+Hortifruti;Cebola;14;1 kg; Pietra Lima
+Hortifruti;Cenoura;15;1 kg;Francisco Oliveira
+Hortifruti;Cenoura;10;1 kg; Cauã da Conceição
+Hortifruti;Cenoura;11;1 kg;Fernando Santos
+Hortifruti;Cenoura;13;1 kg;Yago Peixoto
+Hortifruti;Cenoura;14;1 kg;João Pedro Costa
+Hortifruti;Laranja de Umbigo;13;1 kg;Vitor Hugo da Mata
+Hortifruti;Laranja de Umbigo;15;1 kg;Isabelly da Mata
+Hortifruti;Laranja de Umbigo;12;1 kg;João Miguel da Costa
+Hortifruti;Laranja de Umbigo;11;1 kg;Raquel Azevedo
+Hortifruti;Laranja de Umbigo;12;1 kg;André da Cruz
+Hortifruti;Laranja de Umbigo;8;1 kg;Davi Lucca Teixeira
+Hortifruti;Laranja de Umbigo;12;1 kg; Thiago Ramos
+Hortifruti;Laranja de Umbigo;8;1 kg;Milena Aragão
+Hortifruti;Laranja do Céu;15;1 kg;Julia Dias
+Hortifruti;Laranja do Céu;9;1 kg;Vitor Gabriel Mendes
+Hortifruti;Laranja do Céu;9;1 kg;Francisco Barbosa
+Hortifruti;Laranja do Céu;13;1 kg;Mariana Campos
+Hortifruti;Laranja do Céu;10;1 kg;Sophia da Mata
+Hortifruti;Laranja do Céu;8;1 kg;Paulo Novaes
+Hortifruti;Laranja do Céu;15;1 kg;Giovanna Mendes
+Hortifruti;Laranja do Céu;14;1 kg;Joaquim Cavalcanti
+Hortifruti;Laranja do Céu;9;1 kg;André Campos
+Hortifruti;Laranja do Céu;15;1 kg;Natália da Costa
+Hortifruti;Laranja do Céu;14;1 kg;Cecília Correia
+Hortifruti;Laranja do Céu;14;1 kg;Daniela da Cruz
+Hortifruti;Laranja do Céu;13;1 kg; Alexia da Rocha
+Hortifruti;Maçã;15;1 kg;Julia Dias
+Hortifruti;Maçã;14;1 kg;Francisco Barbosa
+Hortifruti;Maçã;9;1 kg;Daniel Gonçalves
+Hortifruti;Pêssego;10;1 kg;Kaique Novaes
+Hortifruti;Pêssego;13;1 kg;Ana Beatriz Souza
+Hortifruti;Pêssego;13;1 kg;Augusto Cunha
+Hortifruti;Tangerina;8;1 kg;Mirella Viana
+Hortifruti;Tangerina;9;1 kg; Juan Ferreira
+Hortifruti;Abacaxi;15;1 un;Vitor Hugo da Mata
+Hortifruti;Abacaxi;12;1 un;Davi Luiz Lopes
+Hortifruti;Abacaxi;15;1 un;Mirella Viana
+Hortifruti;Abacaxi;12;1 un;Maria Luiza Costela
+Hortifruti;Abacaxi;12;1 un;Davi Lucca Teixeira
+Hortifruti;Abacaxi;14;1 un; Juan Ferreira
+Hortifruti;Abacaxi;15;1 un;Luiza da Mata
+Hortifruti;Abacaxi;11;1 un;Leonardo da Cruz
+Hortifruti;Abacaxi;11;1 un; Cauã da Conceição
+Hortifruti;Beterraba;13;1 un;Olivia Almeida
+Hortifruti;Beterraba;14;1 un;Eduarda da Conceição
+Hortifruti;Beterraba;13;1 un;Maria Alice Correia
+Hortifruti;Beterraba;12;1 un;Ana Beatriz Santos
+Hortifruti;Beterraba;13;1 un;Maria Sophia Gonçalves
+Hortifruti;Beterraba;15;1 un;Agatha da Paz
+Hortifruti;Beterraba;12;1 un;Clara Sales
+Hortifruti;Beterraba;13;1 un;Fernanda Fernandes
+Hortifruti;Beterraba;12;1 un; João Gabriel Correia
+Hortifruti;Beterraba;13;1 un;Erick Moreira
+Hortifruti;Nabo;15;1 un;Maria Cecília Almeida
+Hortifruti;Nabo;14;1 un;Bruno Pires
+Hortifruti;Nabo;9;1 un;Pedro Henrique das Neves
+Hortifruti;Nabo;15;1 un;Raul Araújo
+Hortifruti;Nabo;13;1 un;Vitor Barbosa
+Hortifruti;Nabo;8;1 un; Ana Rezende
+Hortifruti;Nabo;8;1 un;Giovanna Mendes
+Laticínio;Manteiga;18;200 g;Isabelly da Mata
+Laticínio;Manteiga;19;200 g;Felipe Ramos
+Laticínio;Manteiga;15;200 g;Francisco Oliveira
+Laticínio;Manteiga;12;200 g;Brenda Cardoso
+Mel;Mel;17;200 g;Maria Sophia Gonçalves
+Mel;Mel;10;200 g;Nicolas Cardoso
+Mel;Mel;19;200 g;Lívia da Cunha
+Laticínio;Requeijão Catupiry;17;500 g;Paulo Novaes
+Laticínio;Requeijão Catupiry;15;500 g;Laura Costela
+Laticínio;Requeijão Catupiry;20;500 g;Agatha Rodrigues
+Laticínio;Requeijão Catupiry;15;500 g;Joaquim Cavalcanti
+Laticínio;Requeijão Catupiry;18;500 g;Lucca Cavalcanti
+Laticínio;Requeijão Catupiry;18;500 g;Gabriela da Rocha
+Laticínio;Requeijão Catupiry;15;500 g;André Campos
+Laticínio;Requeijão Catupiry;16;500 g;Pedro Henrique Freitas
+Laticínio;Requeijão Catupiry;20;500 g; André da Rocha
+Laticínio;Requeijão Catupiry;19;500 g;Isabelly Moura
+Laticínio;Requeijão Catupiry;15;500 g;Luigi Ramos
+Laticínio;Requeijão Catupiry;20;500 g; Isadora Nogueira
+Laticínio;Requeijão Poços de Caldas;19;500 g;Nicolas Cardoso
+Laticínio;Requeijão Poços de Caldas;20;500 g;Matheus Teixeira
+Laticínio;Requeijão Poços de Caldas;18;500 g;Fernanda Fernandes
+Laticínio;Manteiga;15;200 g;Ana Laura Azevedo
+Laticínio;Manteiga;19;200 g;João Felipe Cruz
+Laticínio;Manteiga;12;200 g; Luiz Miguel da Costa
+Laticínio;Manteiga;13;200 g;Pedro Henrique das Neves
+Laticínio;Manteiga;20;200 g;Enzo Gabriel Nunes
+Mel;Mel;11;200 g;Ana Beatriz Santos
+Mel;Mel;10;200 g; João Gabriel Correia
+Mel;Mel;19;200 g;Paulo Novaes
+Mel;Mel;13;200 g;Ryan Cardoso
+Laticínio;Requeijão Catupiry;16;500 g; Ana Rezende
+Laticínio;Requeijão Catupiry;20;500 g;Sophia da Mata
+Laticínio;Requeijão Catupiry;19;500 g;Alexia Barros
+Laticínio;Requeijão Catupiry;19;500 g;Cecília da Conceição
+Laticínio;Requeijão Catupiry;17;500 g;Natália da Costa
+Laticínio;Requeijão Catupiry;18;500 g;João Pedro Costa
+Laticínio;Requeijão Catupiry;20;500 g;Larissa da Mata
+Laticínio;Requeijão Catupiry;19;500 g;Sophia Cavalcanti
+Laticínio;Requeijão Catupiry;20;500 g;Eduarda da Conceição
+Laticínio;Requeijão Catupiry;15;500 g;Ana Sophia Costela
+Laticínio;Requeijão Catupiry;15;500 g;Isabel Mendes
+Laticínio;Requeijão Catupiry;20;500 g;Miguel Ramos
+Laticínio;Requeijão Poços de Caldas;19;500 g;Vinicius da Paz
+Laticínio;Requeijão Poços de Caldas;18;500 g;Agatha da Paz
+Laticínio;Requeijão Poços de Caldas;15;500 g;Eduardo Jesus
+Laticínio;Requeijão Poços de Caldas;18;500 g;Clara Sales
+Laticínio;Requeijão Poços de Caldas;15;500 g;João Guilherme da Cunha
+Laticínio;Requeijão Poços de Caldas;16;500 g; João Gabriel Correia
+Laticínio;Manteiga;16;200 g;Valentina Ferreira
+Laticínio;Manteiga;15;200 g;Juliana Rocha
+Laticínio;Manteiga;19;200 g;Ana Beatriz Souza
+Laticínio;Manteiga;19;200 g;Manuela Novaes
+Laticínio;Manteiga;18;200 g;Alicia Campos
+Laticínio;Manteiga;19;200 g;Helena Pereira
+Laticínio;Manteiga;18;200 g;Augusto Ribeiro
+Mel;Mel;18;200 g;Cecília Correia
+Mel;Mel;16;200 g; Isabelly Oliveira
+Mel;Mel;14;200 g;Clara Sales
+Mel;Mel;19;200 g;Matheus Teixeira
+Mel;Mel;20;200 g;Erick Moreira
+Mel;Mel;10;200 g;Giovanna Mendes
+Laticínio;Requeijão Catupiry;20;500 g;Lorena Santos
+Laticínio;Requeijão Catupiry;20;500 g;João Vitor Sales
+Laticínio;Requeijão Catupiry;15;500 g;Otávio Moreira
+Laticínio;Requeijão Catupiry;17;500 g;Daniela da Cruz
+Laticínio;Requeijão Catupiry;16;500 g;Ana Beatriz Santos
+Laticínio;Requeijão Catupiry;19;500 g;Alexandre das Neves
+Laticínio;Requeijão Poços de Caldas;15;500 g; Stephany Pereira
+Laticínio;Requeijão Poços de Caldas;18;500 g;Heitor Aragão
+Laticínio;Manteiga;13;200 g; Isabelly Oliveira
+Laticínio;Manteiga;19;200 g;Matheus Nogueira
+Laticínio;Manteiga;14;200 g;Kaique Novaes
+Laticínio;Manteiga;18;200 g;Thomas Freitas
+Laticínio;Manteiga;19;200 g;Maria Cecília Almeida
+Laticínio;Manteiga;19;200 g;Nina Moreira
+Mel;Mel;16;200 g;Daniela da Cruz
+Mel;Mel;11;200 g; Diego Araújo
+Mel;Mel;15;200 g;Larissa da Mata
+Mel;Mel;12;200 g;Breno das Neves
+Mel;Mel;17;200 g; Stephany da Rocha
+Mel;Mel;13;200 g;Yasmin Freitas
+Mel;Mel;19;200 g;Agatha Rodrigues
+Mel;Mel;19;200 g;Alexia Barros
+Mel;Mel;10;200 g;Lorena Santos
+Laticínio;Requeijão Catupiry;17;500 g;João Guilherme da Cruz
+Laticínio;Requeijão Catupiry;18;500 g;Giovanna Lima
+Laticínio;Requeijão Catupiry;20;500 g;Ryan Cardoso
+Laticínio;Requeijão Catupiry;15;500 g;Matheus Correia
+Laticínio;Requeijão Poços de Caldas;17;500 g;Marcos Vinicius Araújo
+Laticínio;Manteiga;19;200 g;Nathan Oliveira
+Laticínio;Manteiga;18;200 g;Luiza da Mata
+Laticínio;Manteiga;14;200 g;Vitor Hugo Viana
+Mel;Mel;19;200 g;Ana Sophia Costela
+Mel;Mel;16;200 g;Isabel Mendes
+Mel;Mel;12;200 g;Valentina Ferreira
+Mel;Mel;12;200 g;Marcos Vinicius Araújo
+Laticínio;Requeijão Catupiry;17;500 g;Alana Porto
+Laticínio;Requeijão Catupiry;18;500 g; Alice Teixeira
+Laticínio;Requeijão Catupiry;19;500 g;Leonardo Teixeira
+Laticínio;Requeijão Catupiry;17;500 g;Augusto das Neves
+Laticínio;Requeijão Catupiry;17;500 g; Alexia da Rocha
+Laticínio;Requeijão Catupiry;17;500 g;Maria Alice Correia
+Laticínio;Requeijão Catupiry;20;500 g;Alana Sales
+Laticínio;Requeijão Catupiry;20;500 g;Felipe Freitas
+Laticínio;Requeijão Catupiry;16;500 g; Stephany da Rocha
+Laticínio;Requeijão Poços de Caldas;15;500 g;Francisco da Paz
+Laticínio;Manteiga;15;200 g;Francisco da Paz
+Laticínio;Manteiga;14;200 g;Lucca da Mata
+Laticínio;Manteiga;12;200 g;Luiza Ramos
+Laticínio;Manteiga;14;200 g;Augusto Cunha
+Laticínio;Manteiga;12;200 g;Gabriela Alves
+Laticínio;Manteiga;19;200 g; Joaquim Melo
+Laticínio;Manteiga;19;200 g;André da Cruz
+Laticínio;Manteiga;18;200 g;Fernando Vieira
+Laticínio;Requeijão Catupiry;16;500 g;Bryan Mendes
+Laticínio;Requeijão Catupiry;18;500 g;Giovanna Mendes
+Laticínio;Requeijão Catupiry;17;500 g;Yago Peixoto
+Laticínio;Requeijão Catupiry;18;500 g;Maria Gonçalves
+Laticínio;Requeijão Catupiry;17;500 g;Juan Freitas
+Laticínio;Requeijão Catupiry;18;500 g;Cecília Correia
+Laticínio;Requeijão Catupiry;16;500 g; Diego Araújo
+Laticínio;Requeijão Catupiry;20;500 g;Olivia Almeida
+Laticínio;Requeijão Catupiry;18;500 g;Breno das Neves
+Laticínio;Requeijão Catupiry;15;500 g;Danilo Cavalcanti
+Laticínio;Requeijão Catupiry;16;500 g;Ana Clara Silva
+Laticínio;Requeijão Poços de Caldas;15;500 g;Valentina Ferreira
+Laticínio;Requeijão Poços de Caldas;20;500 g;Juliana Rocha
+Laticínio;Requeijão Poços de Caldas;18;500 g; Maria Luiza Caldeira
+Laticínio;Requeijão Poços de Caldas;16;500 g;Davi Lucas Alves
+Laticínio;Requeijão Poços de Caldas;18;500 g;Yasmin Freitas
+Laticínio;Requeijão Poços de Caldas;18;500 g;Lívia da Cunha
+Mel;Mel;29;500 g;Augusto Cunha
+Mel;Mel;50;500 g;Maria Luiza Costela
+Mel;Mel;37;500 g;Maria Luiza Costela
+Mel;Mel;34;500 g;Natália da Costa
+Mel;Mel;31;500 g;Felipe Ramos
+Mel;Mel;32;500 g;Luna Fernandes
+Mel;Mel;29;500 g;Alicia Campos
+Mel;Mel;46;500 g;Larissa da Mata
+Mel;Mel;31;500 g;Lucca da Mata
+Mel;Mel;49;500 g;Mirella Viana
+Mel;Mel;48;500 g;Luiz Otávio Porto
+Laticínio;Leite;38;10 litros;João Pedro Costa
+Laticínio;Leite;39;10 litros;Lucca da Mata
+Laticínio;Leite;34;10 litros;Felipe Ramos
+Mel;Mel;27;500 g;Yago Peixoto
+Mel;Mel;43;500 g;Cecília Correia
+Mel;Mel;45;500 g;Thales Moura
+Laticínio;Leite;40;10 litros;Manuela Novaes
+Laticínio;Leite;43;10 litros;Mirella Viana
+Laticínio;Leite;46;10 litros;João Miguel da Costa
+Laticínio;Leite;46;10 litros; Pietra Lima
+Mel;Mel;34;500 g;Juan Freitas
+Laticínio;Leite;50;10 litros;Thales Moura
+Mel;Mel;48;500 g;João Miguel da Costa
+Laticínio;Leite;45;10 litros;Augusto das Neves
+Laticínio;Leite;36;10 litros;Maria Luiza Costela
+Laticínio;Leite;47;10 litros;Raquel Azevedo
+Mel;Mel;32;500 g; André da Rocha
+Mel;Mel;33;500 g; Joaquim Melo
+Laticínio;Leite;40;10 litros;Larissa da Mata
+Laticínio;Leite;46;10 litros;Augusto Cunha
+Laticínio;Leite;42;10 litros;Luiz Otávio Porto
+Laticínio;Leite;43;10 litros;Isabelly da Mata
+Laticínio;Leite;37;10 litros;Thales Moura
+Laticínio;Leite;38;10 litros;Pedro Henrique Freitas
+Laticínio;Leite;41;10 litros;Luiz Otávio Porto
+Mel;Mel;44;500 g;João Vitor Sales
+Mel;Mel;50;500 g;Gabriela Alves
+Laticínio;Leite;46;10 litros; Maria Fernanda Rocha
+Mel;Mel;27;500 g;João Pedro Costa
+Laticínio;Leite;39;10 litros;Ana Beatriz Souza
+Laticínio;Leite;42;10 litros;Maria Cecília Almeida
+Mel;Mel;33;500 g;Vitor Hugo da Mata
+Mel;Mel;28;500 g;Mirella Viana
+Mel;Mel;49;500 g;Luiz Otávio Porto
+Mel;Mel;34;500 g;Felipe Ramos
+Laticínio;Leite;48;10 litros; André da Rocha
+Laticínio;Leite;33;10 litros;Natália da Costa
+Mel;Mel;50;500 g;João Felipe Cruz
+Mel;Mel;41;500 g;Luiza Ramos
+Mel;Mel;39;500 g; Maria Fernanda Rocha
+Mel;Mel;33;500 g; Luiz Miguel da Costa
+Laticínio;Leite;40;10 litros;André Campos
+Laticínio;Leite;44;10 litros; Luiz Miguel da Costa
+Laticínio;Leite;30;10 litros;Leonardo Teixeira
+Mel;Mel;43;1000 g;João Guilherme Ramos
+Mel;Mel;46;1000 g; Ana Rezende
+Mel;Mel;41;1000 g;Lorena Santos
+Mel;Mel;32;500 g;Joaquim Cavalcanti
+Mel;Mel;48;500 g;Enrico Novaes
+Mel;Mel;31;500 g;João Miguel da Costa
+Laticínio;Leite;49;10 litros; Alexia da Rocha
+Mel;Mel;41;1000 g;Lucas da Cunha
+Mel;Mel;45;1000 g;João Guilherme da Cruz
+Mel;Mel;40;1000 g;Paulo Novaes
+Mel;Mel;44;1000 g; Alice Teixeira
+Mel;Mel;35;500 g;Daniela da Cruz
+Mel;Mel;36;500 g;Milena Costa
+Mel;Mel;35;500 g;Isabelly da Mata
+Mel;Mel;43;1000 g;Sabrina Costa
+Mel;Mel;48;1000 g;Maria Gonçalves
+Mel;Mel;48;1000 g;Gabriela da Rocha
+Mel;Mel;45;1000 g; André da Rocha
+Mel;Mel;46;1000 g;Natália da Costa
+Mel;Mel;44;500 g; Alice Teixeira
+Mel;Mel;44;500 g;Pedro Henrique Freitas
+Mel;Mel;47;500 g;Manuela Novaes
+Mel;Mel;46;500 g;Davi Luiz Lopes
+Laticínio;Leite;45;10 litros;Joaquim Cavalcanti
+Laticínio;Leite;46;10 litros;Daniela da Cruz
+Laticínio;Leite;30;10 litros;João Felipe Cruz
+Laticínio;Leite;49;10 litros;Enrico Novaes
+Mel;Mel;46;1000 g;Julia Dias
+Mel;Mel;46;1000 g;Diego da Conceição
+Mel;Mel;45;1000 g;Bryan Mendes
+Mel;Mel;48;1000 g;Ryan Cardoso
+Mel;Mel;41;500 g;Leonardo Teixeira
+Mel;Mel;27;500 g;Ana Beatriz Souza
+Laticínio;Leite;48;10 litros;Gabriela da Rocha
+Laticínio;Leite;36;10 litros;Olivia Almeida
+Laticínio;Leite;36;10 litros;Luna Fernandes
+Laticínio;Leite;45;10 litros;Alicia Campos
+Laticínio;Leite;37;10 litros;Davi Luiz Lopes
+Mel;Mel;45;1000 g;Vinicius Moreira
+Mel;Mel;46;1000 g;Fernando Santos
+Mel;Mel;48;1000 g;Laura Costela
+Mel;Mel;40;1000 g;João Vitor Sales
+Mel;Mel;42;1000 g;Cecília da Conceição
+Mel;Mel;50;500 g;Otávio Moreira
+Laticínio;Leite;31;10 litros;Cecília da Conceição
+Laticínio;Leite;40;10 litros;Milena Costa
+Mel;Mel;46;1000 g; Cauã da Conceição
+Mel;Mel;40;1000 g;Francisco Barbosa
+Mel;Mel;44;1000 g;Daniel Gonçalves
+Mel;Mel;50;1000 g; Luiz Miguel Sales
+Mel;Mel;43;1000 g;Mariana Campos
+Mel;Mel;49;1000 g;Juan Freitas
+Mel;Mel;48;1000 g;Leonardo Teixeira
+Mel;Mel;42;1000 g;Augusto das Neves
+Mel;Mel;31;500 g; Diego Araújo
+Laticínio;Leite;34;10 litros;Lucca Cavalcanti
+Mel;Mel;50;1000 g;Leonardo da Cruz
+Mel;Mel;42;1000 g; Nathan Ferreira
+Mel;Mel;49;1000 g;Sophia da Mata
+Mel;Mel;47;1000 g;Agatha Rodrigues
+Mel;Mel;38;500 g; Alexia da Rocha
+Laticínio;Leite;33;10 litros;Cecília Correia
+Laticínio;Leite;44;10 litros; Diego Araújo
+Laticínio;Leite;44;10 litros;Davi Luiz Lopes
+Laticínio;Leite;49;10 litros;João Miguel da Costa
+Laticínio;Leite;48;10 litros; Luiz Miguel da Costa
+Laticínio;Leite;31;10 litros;Isabelly da Mata
+Laticínio;Leite;37;10 litros;Maria Luiza Costela
+Mel;Mel;41;1000 g;Raul Araújo
+Mel;Mel;49;1000 g;Ana Luiza Pires
+Mel;Mel;45;1000 g;Giovanna Lima
+Mel;Mel;46;1000 g;Alexia Barros
+Mel;Mel;48;1000 g;Lucca Cavalcanti
+Mel;Mel;40;1000 g;João Pedro Costa
+Mel;Mel;38;500 g;Maria Gonçalves
+Mel;Mel;47;500 g;Augusto das Neves
+Mel;Mel;41;500 g;Lucca Cavalcanti
+Mel;Mel;33;500 g;Gabriela da Rocha
+Laticínio;Leite;45;10 litros;Gabriela Alves
+Laticínio;Leite;44;10 litros;Felipe Ramos
+Mel;Mel;48;1000 g;Alícia das Neves
+Mel;Mel;50;1000 g;Maysa da Conceição
+Mel;Mel;40;1000 g;Alana Porto
+Mel;Mel;46;1000 g;André Campos
+Mel;Mel;45;1000 g;Pedro Henrique Freitas
+Mel;Mel;47;1000 g;Otávio Moreira
+Mel;Mel;29;500 g;Davi Luiz Lopes
+Laticínio;Leite;33;10 litros; Joaquim Melo
+Laticínio;Leite;37;10 litros;Lara Porto
+Mel;Mel;50;1000 g;Vitor Gabriel Mendes
+Mel;Mel;49;1000 g;Isaac Rezende
+Mel;Mel;49;1000 g;Vitor Barbosa
+Mel;Mel;47;1000 g;Giovanna Mendes
+Mel;Mel;46;1000 g;Yago Peixoto
+Mel;Mel;30;500 g;Cecília da Conceição
+Mel;Mel;35;500 g;Olivia Almeida
+Mel;Mel;48;500 g;Thales Moura
+Laticínio;Leite;41;10 litros;Otávio Moreira
+Laticínio;Leite;45;10 litros;Vitor Hugo da Mata
+Laticínio;Leite;36;10 litros;Luiza Ramos
+Laticínio;Leite;37;10 litros;Mirella Viana
+Mel;Mel;42;1000 g;Pedro Lucas Cardoso
+Mel;Mel;44;1000 g;Vitória das Neves
+Mel;Mel;41;1000 g;Matheus Correia
+Mel;Mel;50;1000 g;Joaquim Cavalcanti
+Mel;Mel;50;500 g;André Campos
+Mel;Mel;43;500 g;Isabelly da Mata
+Laticínio;Manteiga;60;1 kg;Cauã das Neves
+Laticínio;Manteiga;83;1 kg;Luna Fernandes
+Laticínio;Manteiga;107;1 kg;João Felipe Cruz
+Laticínio;Manteiga;112;1 kg;Francisco Oliveira
+Laticínio;Manteiga;112;1 kg; Thiago Ramos
+Laticínio;Manteiga;118;1 kg;Kaique Novaes
+Laticínio;Manteiga;60;1 kg;Thales Moura
+Laticínio;Manteiga;95;1 kg;Enrico Novaes
+Laticínio;Manteiga;91;1 kg;Lara Porto
+Laticínio;Manteiga;94;1 kg;Davi Luiz Lopes
+Laticínio;Manteiga;62;1 kg;André da Cruz
+Laticínio;Manteiga;63;1 kg;Helena Pereira
+Laticínio;Manteiga;77;1 kg;Vitor Hugo da Mata
+Laticínio;Manteiga;67;1 kg;Pedro Lucas Cardoso
+Laticínio;Manteiga;117;1 kg;Milena Aragão
+Laticínio;Manteiga;95;1 kg;Davi Lucca Teixeira
+Laticínio;Manteiga;92;1 kg;Lucca da Mata
+Laticínio;Manteiga;68;1 kg;Fernando Vieira
+Laticínio;Manteiga;120;1 kg;Thomas Freitas
+Laticínio;Manteiga;98;1 kg;Alicia Campos
+Laticínio;Manteiga;112;1 kg;Bruno Pires
+Laticínio;Manteiga;76;1 kg;Manuela Novaes
+Laticínio;Manteiga;114;1 kg;Raul Araújo
+Laticínio;Manteiga;78;1 kg;Luiza da Mata
+Laticínio;Manteiga;68;1 kg;Augusto Cunha
+Laticínio;Manteiga;90;1 kg;Felipe Ramos
+Laticínio;Manteiga;90;1 kg;Vinicius Moreira
+Laticínio;Manteiga;113;1 kg; Joaquim Melo
+Laticínio;Manteiga;118;1 kg; Pietra Lima
+Laticínio;Manteiga;88;1 kg;Luiza Ramos
+Laticínio;Manteiga;116;1 kg;Gabriela Alves
+Laticínio;Manteiga;91;1 kg;Maria Luiza Costela
+Laticínio;Manteiga;105;1 kg; Maria Fernanda Rocha
+Laticínio;Manteiga;108;1 kg; Luiz Miguel da Costa
+Laticínio;Manteiga;80;1 kg;João Miguel da Costa
+Laticínio;Manteiga;98;1 kg;Leonardo da Cruz
+Laticínio;Manteiga;84;1 kg;Brenda Cardoso
+Laticínio;Manteiga;112;1 kg; Cauã da Conceição
+Laticínio;Manteiga;95;1 kg;Nathan Oliveira
+Laticínio;Manteiga;119;1 kg;Pedro Henrique das Neves
+Laticínio;Manteiga;87;1 kg;Isabelly da Mata
+Laticínio;Manteiga;78;1 kg;Yago Castro
+Laticínio;Manteiga;75;1 kg;Ana Laura Azevedo
+Laticínio;Manteiga;79;1 kg;Raquel Azevedo
+Laticínio;Manteiga;69;1 kg;Enzo Gabriel Nunes
+Laticínio;Manteiga;100;1 kg;Ana Beatriz Souza
+Laticínio;Manteiga;107;1 kg; Juan Ferreira
+Laticínio;Manteiga;61;1 kg;Matheus Nogueira
+Laticínio;Manteiga;97;1 kg;Vitor Hugo Viana
+Laticínio;Manteiga;90;1 kg; Nathan Ferreira
+Laticínio;Manteiga;91;1 kg;Milena Costa
+Laticínio;Manteiga;105;1 kg;Maria Cecília Almeida
+Laticínio;Manteiga;67;1 kg;Augusto Ribeiro
+Laticínio;Manteiga;106;1 kg;Nina Moreira
