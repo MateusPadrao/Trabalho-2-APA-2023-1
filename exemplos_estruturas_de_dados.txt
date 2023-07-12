@@ -1,4 +1,4 @@
-'''{
+produtor = {
     'nome': 'Matheus Nogueira',
     'frete': 12.0,
     'produtos': 
@@ -60,4 +60,10 @@
             'fornecedor': 'Matheus Nogueira'
         }
     ]
-}'''
+}
+
+carrinho = [
+    {'identificacao': 'produto1', 'quantidade': 2},
+    {'identificacao': 'produto2', 'quantidade': 1},
+    {'identificacao': 'produto3', 'quantidade': 3}
+]
