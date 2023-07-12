@@ -67,81 +67,136 @@ def carregar_dados_produtos(nome_arquivo):
             }) # adiciona o dicionário produto na lista de produtos
     return dados_produtos
 
+def carregar_carrinho(nome_arquivo):
+    """
+    Carrega os dados do carrinho de um arquivo CSV.
+    :param nome_arquivo: nome do arquivo CSV
+    :return: lista de dicionários com os dados do carrinho
+    """
+    
+    dados_carrinho = []
+    with open(nome_arquivo, 'r') as arquivo:
+        leitor_csv = csv.reader(arquivo, delimiter=';')
+        # Ignorar o cabeçalho, se houver
+        next(leitor_csv)
+        for linha in leitor_csv:
+            nome_prod = linha[0].strip()  # nome do produto
+            quantidade = linha[1].strip()  # quantidade do produto
+            qtde_numerica, und_medida = separar_numeros(quantidade)
+            dados_carrinho.append({
+                'nome_prod': nome_prod,
+                'quantidade_num': qtde_numerica,
+                'quantidade_unidade': und_medida
+            }) # adiciona o dicionário produto na lista de produtos
+    return dados_carrinho
+
+def combinar_dados_produtores_produtos(lista_produtores, lista_produtos):
+    """
+    Coloca os produtos de cada produtor na lista de produtos do produtor.
+    :param lista_produtores: lista de dicionários, onde cada dicionário representa um produtor
+    :param lista_produtos: lista de dicionários, onde cada dicionário representa um produto
+    :return: lista de dicionários, onde cada dicionário representa um produtor, com a lista de produtos do produtor
+    """
+    
+    # Para cada produtor
+    for produtor in lista_produtores:
+        # Para cada produto
+        for produto in lista_produtos:
+            # Se o fornecedor do produto for o produtor atual
+            if produto['fornecedor'] == produtor['nome']:
+                # Adicionar o produto na lista de produtos do produtor descartando o parâmetro fornecedor, pois já sabemos que é o produtor atual
+                # produto_sem_fornecedor = produto.copy()
+                # del produto_sem_fornecedor['fornecedor']
+                # produtor['produtos'].append(produto_sem_fornecedor)
+                produtor['produtos'].append(produto)
+    return lista_produtores
+
+'''def calcular_melhor_compra(carrinho, produtores, nome_arquivo_saida):
+    # Tabela de memoização para armazenar o custo mínimo de cada subproblema
+    tabela_memoizacao = {}
+
+    # Função auxiliar para calcular o custo mínimo
+    def calcular_custo_minimo(indice_produto, quantidade_restante):
+        if indice_produto >= len(carrinho) or quantidade_restante == 0:
+            return 0
+
+        # Verificar se o subproblema já foi resolvido anteriormente
+        if (indice_produto, quantidade_restante) in tabela_memoizacao:
+            return tabela_memoizacao[(indice_produto, quantidade_restante)]
+
+        produto = carrinho[indice_produto]
+        custo_minimo = float('inf')
+
+        # Iterar sobre as quantidades possíveis para o produto atual
+        for quantidade_atual in range(int(quantidade_restante) + 1):
+            custo_atual = (
+                produto['valor'] * quantidade_atual +
+                produto['produtor']['frete'] +
+                calcular_custo_minimo(indice_produto + 1, quantidade_restante - quantidade_atual)
+            )
+            custo_minimo = min(custo_minimo, custo_atual)
+
+        # Armazenar o custo mínimo na tabela de memoização
+        tabela_memoizacao[(indice_produto, quantidade_restante)] = custo_minimo
+        return custo_minimo
+
+    # Calcular o custo mínimo para a quantidade total do carrinho
+    custo_minimo_total = calcular_custo_minimo(0, sum(produto['quantidade_num'] for produto in carrinho))
+
+    # Gerar o arquivo CSV com as informações da melhor compra
+    with open(nome_arquivo_saida, 'w', newline='') as arquivo_saida:
+        escritor_csv = csv.writer(arquivo_saida)
+        escritor_csv.writerow(['Identificação do Produto', 'Identificador do Fornecedor', 'Quantidade Requerida', 'Valor do Item'])
+
+        # Função auxiliar para escrever as informações do produto no arquivo CSV
+        def escrever_produto(produto, quantidade_restante):
+            quantidade_atual = min(produto['quantidade'], quantidade_restante)
+            escritor_csv.writerow([
+                produto['identificacao'],
+                produto['fornecedor'],
+                quantidade_atual,
+                produto['valor']
+            ])
+            return quantidade_restante - quantidade_atual
+
+        quantidade_restante = sum(produto['quantidade_num'] for produto in carrinho)
+
+        # Percorrer os produtos e escrever as informações no arquivo CSV
+        for produto in carrinho:
+            for produtor in produtores:
+                produtos_do_produtor = [p for p in produtor['produtos'] if p['nome'] == produto['identificacao']]
+                if produtos_do_produtor:
+                    produto['produtor'] = produtor
+                    produto['valor'] = produtos_do_produtor[0]['valor']
+                    quantidade_restante = escrever_produto(produto, quantidade_restante)
+
+        valor_total_produtos = custo_minimo_total - sum(produto['produtor']['frete'] for produto in carrinho)
+        valor_total_fretes = sum(produto['produtor']['frete'] for produto in carrinho)
+        valor_total_compra = custo_minimo_total
+
+        escritor_csv.writerow([])
+        escritor_csv.writerow(['Valor Total dos Produtos', 'Valor Total dos Fretes', 'Valor Total da Compra'])
+        escritor_csv.writerow([valor_total_produtos, valor_total_fretes, valor_total_compra])
+
+    print("A melhor compra foi calculada e as informações foram salvas no arquivo:", nome_arquivo_saida)
+'''
+
 # Exemplo de uso
 lista_produtores = carregar_dados_produtores('Fretes.csv')
 lista_produtos = carregar_dados_produtos('Produtos.csv')
+lista_produtores = combinar_dados_produtores_produtos(lista_produtores, lista_produtos) # lista_produtores agora contém os dados dos produtores e seus produtos
+carrinho = carregar_carrinho('carrinho_exemplo.csv')
 
+# calcular_melhor_compra(carrinho, lista_produtores, 'melhor_compra.csv')
 # Combinar os dados dos produtores e dos produtos
 
-# Para cada produtor
-for produtor in lista_produtores:
-    # Para cada produto
-    for produto in lista_produtos:
-        # Se o fornecedor do produto for o produtor atual
-        if produto['fornecedor'] == produtor['nome']:
-            # Adicionar o produto na lista de produtos do produtor descartando o parâmetro fornecedor, pois já sabemos que é o produtor atual
-            produto_sem_fornecedor = produto.copy()
-            del produto_sem_fornecedor['fornecedor']
-            produtor['produtos'].append(produto_sem_fornecedor)
+
 
 # lista_produtores agora contém os dados dos produtores e seus produtos
-print(lista_produtores[0])
+'''print(carrinho)
+print('\n\n')
+print(lista_produtores[1])'''
 
 
-'''{
-    'nome': 'Matheus Nogueira',
-    'frete': 12.0,
-    'produtos': 
-    [
-        {
-            'tipo': 'Hortifruti',
-            'nome': 'Laranja de Umbigo', 
-            'valor': 11.0, 
-            'quantidade_num': 1.0, 
-            'quantidade_unidade': 'kg'
-        }, 
-        {
-            'tipo': 'Laticínio', 
-            'nome': 'Nata Piá', 
-            'valor': 12.0, 
-            'quantidade_num': 200.0, 
-            'quantidade_unidade': 'g'
-        }, 
-        {
-            'tipo': 'Laticínio', 
-            'nome': 'Nata Tirol', 
-            'valor': 12.0, 
-            'quantidade_num': 200.0, 
-            'quantidade_unidade': 'g'
-        }, 
-        {
-            'tipo': 'Hortifruti', 
-            'nome': 'Abacaxi', 
-            'valor': 11.0, 
-            'quantidade_num': 1.0, 
-            'quantidade_unidade': 'un'
-        }, 
-        {
-            'tipo': 'Hortifruti', 
-            'nome': 'Cebola', 
-            'valor': 12.0, 
-            'quantidade_num': 1.0, 
-            'quantidade_unidade': 'kg'
-        }, 
-        {
-            'tipo': 'Laticínio', 
-            'nome': 'Manteiga', 
-            'valor': 19.0, 
-            'quantidade_num': 200.0, 
-            'quantidade_unidade': 'g'
-        }, 
-        {
-            'tipo': 'Laticínio', 
-            'nome': 'Manteiga', 
-            'valor': 61.0, 
-            'quantidade_num': 1.0, 
-            'quantidade_unidade': 'kg'
-        }
-    ]
-}'''
+
 

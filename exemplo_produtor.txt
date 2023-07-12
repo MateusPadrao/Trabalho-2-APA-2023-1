@@ -1,0 +1,63 @@
+'''{
+    'nome': 'Matheus Nogueira',
+    'frete': 12.0,
+    'produtos': 
+    [
+        {
+            'tipo': 'Hortifruti',
+            'nome': 'Laranja de Umbigo', 
+            'valor': 11.0, 
+            'quantidade_num': 1.0, 
+            'quantidade_unidade': 'kg',
+            'fornecedor': 'Matheus Nogueira'
+        }, 
+        {
+            'tipo': 'Laticínio', 
+            'nome': 'Nata Piá', 
+            'valor': 12.0, 
+            'quantidade_num': 200.0, 
+            'quantidade_unidade': 'g',
+            'fornecedor': 'Matheus Nogueira'
+        }, 
+        {
+            'tipo': 'Laticínio', 
+            'nome': 'Nata Tirol', 
+            'valor': 12.0, 
+            'quantidade_num': 200.0, 
+            'quantidade_unidade': 'g',
+            'fornecedor': 'Matheus Nogueira'
+        }, 
+        {
+            'tipo': 'Hortifruti', 
+            'nome': 'Abacaxi', 
+            'valor': 11.0, 
+            'quantidade_num': 1.0, 
+            'quantidade_unidade': 'un',
+            'fornecedor': 'Matheus Nogueira'
+        }, 
+        {
+            'tipo': 'Hortifruti', 
+            'nome': 'Cebola', 
+            'valor': 12.0, 
+            'quantidade_num': 1.0, 
+            'quantidade_unidade': 'kg'
+            'fornecedor': 'Matheus Nogueira'
+        }, 
+        {
+            'tipo': 'Laticínio', 
+            'nome': 'Manteiga', 
+            'valor': 19.0, 
+            'quantidade_num': 200.0, 
+            'quantidade_unidade': 'g',
+            'fornecedor': 'Matheus Nogueira'
+        }, 
+        {
+            'tipo': 'Laticínio', 
+            'nome': 'Manteiga', 
+            'valor': 61.0, 
+            'quantidade_num': 1.0, 
+            'quantidade_unidade': 'kg',
+            'fornecedor': 'Matheus Nogueira'
+        }
+    ]
+}'''
