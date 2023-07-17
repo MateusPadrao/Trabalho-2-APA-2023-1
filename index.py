@@ -161,7 +161,7 @@ def calcular_melhor_compra(carrinho, produtores, nome_arquivo_saida):
         def escrever_produto(produto, quantidade_restante):
             quantidade_atual = min(produto['quantidade'], quantidade_restante)
             escritor_csv.writerow([
-                produto['identificacao'],
+                produto['nome_prod'],
                 produto['fornecedor'],
                 quantidade_atual,
                 produto['valor']
@@ -173,7 +173,7 @@ def calcular_melhor_compra(carrinho, produtores, nome_arquivo_saida):
         # Percorrer os produtos e escrever as informações no arquivo CSV
         for produto in carrinho:
             for produtor in produtores:
-                produtos_do_produtor = [p for p in produtor['produtos'] if p['nome'] == produto['identificacao']]
+                produtos_do_produtor = [p for p in produtor['produtos'] if p['nome'] == produto['nome_prod']]
                 if produtos_do_produtor:
                     produto['produtor'] = produtor
                     produto['valor'] = produtos_do_produtor[0]['valor']
@@ -255,7 +255,7 @@ def calcular_melhor_compra(carrinho, produtores, nome_arquivo_saida):
 
     print("A melhor compra foi calculada e as informações foram salvas no arquivo:", nome_arquivo_saida)
 
-def calcular_melhor_compra(carrinho, produtores, nome_arquivo_saida, populacao_inicial=50, geracoes=100):
+def calcular_melhor_compraAG(carrinho, produtores, nome_arquivo_saida, populacao_inicial=50, geracoes=100):
     """
     Abordagem de algoritmo genético para calcular a melhor compra. Não testada e não finalizada.
     :param carrinho: lista de dicionários, onde cada dicionário representa um produto do carrinho
@@ -278,11 +278,11 @@ def calcular_melhor_compra(carrinho, produtores, nome_arquivo_saida, populacao_i
     for _ in range(populacao_inicial):
         solucao = []
         for produto in carrinho:
-            fornecedores = [produtor for produtor in produtores if produto['identificacao'] in [p['nome'] for p in produtor['produtos']]]
+            fornecedores = [produtor for produtor in produtores if produto['nome_prod'] in [p['nome'] for p in produtor['produtos']]]
             fornecedor = random.choice(fornecedores) if fornecedores else None
             if fornecedor:
                 produto['produtor'] = fornecedor
-                produto['valor'] = next((p['valor'] for p in fornecedor['produtos'] if p['nome'] == produto['identificacao']), 0)
+                produto['valor'] = next((p['valor'] for p in fornecedor['produtos'] if p['nome'] == produto['nome_prod']), 0)
                 solucao.append(produto)
         populacao.append(solucao)
 
@@ -313,11 +313,11 @@ def calcular_melhor_compra(carrinho, produtores, nome_arquivo_saida, populacao_i
             if random.random() < 0.1:  # taxa de mutação de 10%
                 posicao = random.randint(0, len(solucao) - 1)
                 produto = solucao[posicao]
-                fornecedores = [produtor for produtor in produtores if produto['identificacao'] in [p['nome'] for p in produtor['produtos']]]
+                fornecedores = [produtor for produtor in produtores if produto['nome_prod'] in [p['nome'] for p in produtor['produtos']]]
                 fornecedor = random.choice(fornecedores) if fornecedores else None
                 if fornecedor:
                     produto['produtor'] = fornecedor
-                    produto['valor'] = next((p['valor'] for p in fornecedor['produtos'] if p['nome'] == produto['identificacao']), 0)
+                    produto['valor'] = next((p['valor'] for p in fornecedor['produtos'] if p['nome'] == produto['nome_prod']), 0)
 
         # Avaliar aptidão dos filhos
         filhos_avaliados = [(sol, avaliar_aptidao(sol)) for sol in filhos]
@@ -330,17 +330,22 @@ def calcular_melhor_compra(carrinho, produtores, nome_arquivo_saida, populacao_i
 
     # Melhor solução encontrada
     melhor_solucao = populacao_avaliada[0][0]
+    # Imprimir melhor solução formatada
+    #print('Melhor solução encontrada:')
+    #for produto in melhor_solucao:
+    #    print(produto['nome_prod'], produto['produtor']['nome'], produto['valor'])
+        
 
     # Gerar o arquivo CSV com as informações da melhor compra
     with open(nome_arquivo_saida, 'w', newline='') as arquivo_saida:
         escritor_csv = csv.writer(arquivo_saida)
-        escritor_csv.writerow(['Identificação do Produto', 'Identificador do Fornecedor', 'Quantidade Requerida', 'Valor do Item'])
+        escritor_csv.writerow(['Identificacao do Produto', 'Identificador do Fornecedor', 'Quantidade Requerida', 'Valor do Item'])
 
         for produto in melhor_solucao:
             escritor_csv.writerow([
-                produto['identificacao'],
-                produto['fornecedor'],
-                produto['quantidade'],
+                produto['nome_prod'],
+                produto['produtor']['nome'],
+                produto['quantidade_num'],
                 produto['valor']
             ])
 
@@ -362,7 +367,7 @@ lista_produtos = carregar_dados_produtos('Produtos.csv')
 lista_produtores = combinar_dados_produtores_produtos(lista_produtores, lista_produtos) # lista_produtores agora contém os dados dos produtores e seus produtos
 carrinho = carregar_carrinho('carrinho_exemplo.csv')
 #print('Linha 252')
-#calcular_melhor_compra(carrinho, lista_produtores, nome_arquivo_saida)
+calcular_melhor_compraAG(carrinho, lista_produtores, nome_arquivo_saida)
 
 
 
