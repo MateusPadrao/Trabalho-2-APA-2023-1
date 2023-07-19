@@ -63,7 +63,7 @@ produtor = {
 }
 
 carrinho = [
-    {'identificacao': 'produto1', 'quantidade': 2},
-    {'identificacao': 'produto2', 'quantidade': 1},
-    {'identificacao': 'produto3', 'quantidade': 3}
+    {'nome_prod': 'produto1', 'quantidade_num': 2, 'quantidade_unidade': 'kg'},
+    {'nome_prod': 'produto2', 'quantidade_num': 1, 'quantidade_unidade': 'un'},
+    {'nome_prod': 'produto3', 'quantidade_num': 3, 'quantidade_unidade': 'g'}
 ]
