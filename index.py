@@ -106,14 +106,11 @@ def combinar_dados_produtores_produtos(lista_produtores, lista_produtos):
         for produto in lista_produtos:
             # Se o fornecedor do produto for o produtor atual
             if produto['fornecedor'] == produtor['nome']:
-                # Adicionar o produto na lista de produtos do produtor descartando o parâmetro fornecedor, pois já sabemos que é o produtor atual
-                # produto_sem_fornecedor = produto.copy()
-                # del produto_sem_fornecedor['fornecedor']
-                # produtor['produtos'].append(produto_sem_fornecedor)
+                # Adicionar o produto à lista de produtos do produtor
                 produtor['produtos'].append(produto)
     return lista_produtores
 
-def calcular_melhor_compra(carrinho, produtores, nome_arquivo_saida):
+'''def calcular_melhor_compra(carrinho, produtores, nome_arquivo_saida):
     """
     Abordagem de programação dinâmica para calcular a melhor compra. Há erros para corrigir.
     :param carrinho: lista de dicionários, onde cada dicionário representa um produto do carrinho
@@ -187,9 +184,9 @@ def calcular_melhor_compra(carrinho, produtores, nome_arquivo_saida):
         escritor_csv.writerow(['Valor Total dos Produtos', 'Valor Total dos Fretes', 'Valor Total da Compra'])
         escritor_csv.writerow([valor_total_produtos, valor_total_fretes, valor_total_compra])
 
-    print("A melhor compra foi calculada e as informações foram salvas no arquivo:", nome_arquivo_saida)
+    print("A melhor compra foi calculada e as informações foram salvas no arquivo:", nome_arquivo_saida)'''
 
-def calcular_melhor_compra(carrinho, produtores, nome_arquivo_saida):
+'''def calcular_melhor_compra(carrinho, produtores, nome_arquivo_saida):
     """
     Abordagem de força bruta para calcular a melhor compra. Testada, porém é um problema com entrada muito grande.
     :param carrinho: lista de dicionários, onde cada dicionário representa um produto do carrinho
@@ -253,16 +250,16 @@ def calcular_melhor_compra(carrinho, produtores, nome_arquivo_saida):
         escritor_csv.writerow(['Valor Total dos Produtos', 'Valor Total dos Fretes', 'Valor Total da Compra'])
         escritor_csv.writerow([valor_total_produtos, valor_total_fretes, valor_total_compra])
 
-    print("A melhor compra foi calculada e as informações foram salvas no arquivo:", nome_arquivo_saida)
+    print("A melhor compra foi calculada e as informações foram salvas no arquivo:", nome_arquivo_saida)'''
 
 def calcular_melhor_compraAG(carrinho, produtores, nome_arquivo_saida, populacao_inicial=50, geracoes=100):
     """
-    Abordagem de algoritmo genético para calcular a melhor compra. Não testada e não finalizada.
+    Abordagem de algoritmo genético para calcular a melhor compra. Testado e funcional para o caso de teste.
     :param carrinho: lista de dicionários, onde cada dicionário representa um produto do carrinho
     :param produtores: lista de dicionários, onde cada dicionário representa um produtor
     :param nome_arquivo_saida: nome do arquivo CSV de saída
-    :param populacao_inicial: número de soluções na população inicial
-    :param geracoes: número de gerações
+    :param populacao_inicial: número de soluções na população inicial com valor padrão de 50. É a primeira geração de soluções candidatas.
+    :param geracoes: número de gerações com valor padrão de 100. Representa o número de vezes que o algoritmo genético será executado.
     :return: None
     """
     
@@ -278,9 +275,11 @@ def calcular_melhor_compraAG(carrinho, produtores, nome_arquivo_saida, populacao
     for _ in range(populacao_inicial):
         solucao = []
         for produto in carrinho:
+            # Selecionar um fornecedor aleatório para cada produto no carrinho
             fornecedores = [produtor for produtor in produtores if produto['nome_prod'] in [p['nome'] for p in produtor['produtos']]]
             fornecedor = random.choice(fornecedores) if fornecedores else None
             if fornecedor:
+                # Adicionar o produto selecionado à solução
                 produto['produtor'] = fornecedor
                 produto['valor'] = next((p['valor'] for p in fornecedor['produtos'] if p['nome'] == produto['nome_prod']), 0)
                 solucao.append(produto)
@@ -316,6 +315,7 @@ def calcular_melhor_compraAG(carrinho, produtores, nome_arquivo_saida, populacao
                 fornecedores = [produtor for produtor in produtores if produto['nome_prod'] in [p['nome'] for p in produtor['produtos']]]
                 fornecedor = random.choice(fornecedores) if fornecedores else None
                 if fornecedor:
+                    # Mutação: selecionar um novo fornecedor para o produto
                     produto['produtor'] = fornecedor
                     produto['valor'] = next((p['valor'] for p in fornecedor['produtos'] if p['nome'] == produto['nome_prod']), 0)
 
@@ -329,12 +329,7 @@ def calcular_melhor_compraAG(carrinho, produtores, nome_arquivo_saida, populacao
         populacao_avaliada = nova_populacao
 
     # Melhor solução encontrada
-    melhor_solucao = populacao_avaliada[0][0]
-    # Imprimir melhor solução formatada
-    #print('Melhor solução encontrada:')
-    #for produto in melhor_solucao:
-    #    print(produto['nome_prod'], produto['produtor']['nome'], produto['valor'])
-        
+    melhor_solucao = populacao_avaliada[0][0]        
 
     # Gerar o arquivo CSV com as informações da melhor compra
     with open(nome_arquivo_saida, 'w', newline='') as arquivo_saida:
@@ -359,14 +354,14 @@ def calcular_melhor_compraAG(carrinho, produtores, nome_arquivo_saida, populacao
 
     print("A melhor compra foi calculada e as informações foram salvas no arquivo:", nome_arquivo_saida)
 
+# Execução do programa
+
 nome_arquivo_saida = 'melhor_compra.csv'
 
-# Exemplo de uso
-lista_produtores = carregar_dados_produtores('Fretes.csv')
-lista_produtos = carregar_dados_produtos('Produtos.csv')
+lista_produtores = carregar_dados_produtores('Fretes.csv') # lista_produtores contém os dados dos produtores
+lista_produtos = carregar_dados_produtos('Produtos.csv') # lista_produtos contém os dados dos produtos
 lista_produtores = combinar_dados_produtores_produtos(lista_produtores, lista_produtos) # lista_produtores agora contém os dados dos produtores e seus produtos
-carrinho = carregar_carrinho('carrinho_exemplo.csv')
-#print('Linha 252')
+carrinho = carregar_carrinho('carrinho_exemplo.csv') # carrinho contém os dados do carrinho
 calcular_melhor_compraAG(carrinho, lista_produtores, nome_arquivo_saida)
 
 
