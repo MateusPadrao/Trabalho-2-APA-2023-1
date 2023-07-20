@@ -1,10 +1,18 @@
 Identificacao do Produto,Identificador do Fornecedor,Quantidade Requerida,Valor do Item
-Acelga,Otávio Moreira,4.0,5.0
-Leite,Lorena Santos,3.0,4.0
-Salsa,João Felipe Cruz,1.0,7.0
-Manteiga,Maria Fernanda Rocha,300.0,18.0
-Alho,Agatha Rodrigues,1.0,15.0
+Acelga,Fernando Santos,4.0,4.0
+Leite,Danilo Cavalcanti,3.0,4.0
+Salsa,Maria Cecília Almeida,1.0,8.0
+Manteiga,Matheus Nogueira,300.0,19.0
+Alho,Natália da Costa,1.0,10.0
 Cebola,Augusto Cunha,1.0,11.0
+Bergamota Ponkan,Pedro Henrique Freitas,1.0,11.0
+Laranja de Umbigo,Pedro Henrique das Neves,2.0,14.0
+Abacaxi,Bruno Pires,5.0,8.0
+Nata Santa Clara,Luigi Ramos,200.0,11.0
+Cenoura,Nina Moreira,2.0,12.0
+Beterraba,Heitor Aragão,5.0,13.0
+Banana,Enrico Novaes,1.0,14.0
+Mel,Luigi Ramos,500.0,14.0
 
 Valor Total dos Produtos,Valor Total dos Fretes,Valor Total da Compra
-60.0,148.0,208.0
+153.0,289.0,442.0
