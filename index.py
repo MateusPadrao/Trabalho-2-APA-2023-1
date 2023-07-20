@@ -2,6 +2,8 @@ import csv
 import re
 import itertools
 import random
+import tkinter as tk
+from tkinter import filedialog
 
 def separar_numeros(texto):
     """
@@ -357,11 +359,14 @@ def calcular_melhor_compraAG(carrinho, produtores, nome_arquivo_saida, populacao
 # Execução do programa
 
 nome_arquivo_saida = 'melhor_compra.csv'
+arquivo_produtores = filedialog.askopenfilename(title='Selecione o arquivo de produtores', filetypes=[('CSV', '*.csv')])
+arquivo_produtos = filedialog.askopenfilename(title='Selecione o arquivo de produtos', filetypes=[('CSV', '*.csv')])
+arquivo_carrinho = filedialog.askopenfilename(title='Selecione o arquivo do carrinho', filetypes=[('CSV', '*.csv')])
 
-lista_produtores = carregar_dados_produtores('Fretes.csv') # lista_produtores contém os dados dos produtores
-lista_produtos = carregar_dados_produtos('Produtos.csv') # lista_produtos contém os dados dos produtos
+lista_produtores = carregar_dados_produtores(arquivo_produtores) # lista_produtores contém os dados dos produtores
+lista_produtos = carregar_dados_produtos(arquivo_produtos) # lista_produtos contém os dados dos produtos
 lista_produtores = combinar_dados_produtores_produtos(lista_produtores, lista_produtos) # lista_produtores agora contém os dados dos produtores e seus produtos
-carrinho = carregar_carrinho('carrinho_exemplo.csv') # carrinho contém os dados do carrinho
+carrinho = carregar_carrinho(arquivo_carrinho) # carrinho contém os dados do carrinho
 calcular_melhor_compraAG(carrinho, lista_produtores, nome_arquivo_saida)
 
 
