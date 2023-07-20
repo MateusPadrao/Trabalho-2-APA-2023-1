@@ -60,6 +60,9 @@ def carregar_dados_produtos(nome_arquivo):
             valor = float(linha[2])  # valor do produto
             quantidade = linha[3].strip()  # quantidade do produto
             qtde_numerica, und_medida = separar_numeros(quantidade)
+            if und_medida == 'g':
+                qtde_numerica /= 1000
+                und_medida = 'kg'
             fornecedor = linha[4].strip()  # fornecedor do produto
             dados_produtos.append({
                 'tipo': tipo,
