@@ -115,149 +115,6 @@ def combinar_dados_produtores_produtos(lista_produtores, lista_produtos):
                 produtor['produtos'].append(produto)
     return lista_produtores
 
-'''def calcular_melhor_compra(carrinho, produtores, nome_arquivo_saida):
-    """
-    Abordagem de programação dinâmica para calcular a melhor compra. Há erros para corrigir.
-    :param carrinho: lista de dicionários, onde cada dicionário representa um produto do carrinho
-    :param produtores: lista de dicionários, onde cada dicionário representa um produtor
-    :param nome_arquivo_saida: nome do arquivo CSV de saída
-    :return: None
-    """
-    # Tabela de memoização para armazenar o custo mínimo de cada subproblema
-    tabela_memoizacao = {}
-
-    # Função auxiliar para calcular o custo mínimo
-    def calcular_custo_minimo(indice_produto, quantidade_restante):
-        if indice_produto >= len(carrinho) or quantidade_restante == 0:
-            return 0
-
-        # Verificar se o subproblema já foi resolvido anteriormente
-        if (indice_produto, quantidade_restante) in tabela_memoizacao:
-            return tabela_memoizacao[(indice_produto, quantidade_restante)]
-
-        produto = carrinho[indice_produto]
-        custo_minimo = float('inf')
-
-        # Iterar sobre as quantidades possíveis para o produto atual
-        for quantidade_atual in range(int(quantidade_restante) + 1):
-            custo_atual = (
-                produto['valor'] * quantidade_atual +
-                produto['produtor']['frete'] +
-                calcular_custo_minimo(indice_produto + 1, quantidade_restante - quantidade_atual)
-            )
-            custo_minimo = min(custo_minimo, custo_atual)
-
-        # Armazenar o custo mínimo na tabela de memoização
-        tabela_memoizacao[(indice_produto, quantidade_restante)] = custo_minimo
-        return custo_minimo
-
-    # Calcular o custo mínimo para a quantidade total do carrinho
-    custo_minimo_total = calcular_custo_minimo(0, sum(produto['quantidade_num'] for produto in carrinho))
-
-    # Gerar o arquivo CSV com as informações da melhor compra
-    with open(nome_arquivo_saida, 'w', newline='') as arquivo_saida:
-        escritor_csv = csv.writer(arquivo_saida)
-        escritor_csv.writerow(['Identificação do Produto', 'Identificador do Fornecedor', 'Quantidade Requerida', 'Valor do Item'])
-
-        # Função auxiliar para escrever as informações do produto no arquivo CSV
-        def escrever_produto(produto, quantidade_restante):
-            quantidade_atual = min(produto['quantidade'], quantidade_restante)
-            escritor_csv.writerow([
-                produto['nome_prod'],
-                produto['fornecedor'],
-                quantidade_atual,
-                produto['valor']
-            ])
-            return quantidade_restante - quantidade_atual
-
-        quantidade_restante = sum(produto['quantidade_num'] for produto in carrinho)
-
-        # Percorrer os produtos e escrever as informações no arquivo CSV
-        for produto in carrinho:
-            for produtor in produtores:
-                produtos_do_produtor = [p for p in produtor['produtos'] if p['nome'] == produto['nome_prod']]
-                if produtos_do_produtor:
-                    produto['produtor'] = produtor
-                    produto['valor'] = produtos_do_produtor[0]['valor']
-                    quantidade_restante = escrever_produto(produto, quantidade_restante)
-
-        valor_total_produtos = custo_minimo_total - sum(produto['produtor']['frete'] for produto in carrinho)
-        valor_total_fretes = sum(produto['produtor']['frete'] for produto in carrinho)
-        valor_total_compra = custo_minimo_total
-
-        escritor_csv.writerow([])
-        escritor_csv.writerow(['Valor Total dos Produtos', 'Valor Total dos Fretes', 'Valor Total da Compra'])
-        escritor_csv.writerow([valor_total_produtos, valor_total_fretes, valor_total_compra])
-
-    print("A melhor compra foi calculada e as informações foram salvas no arquivo:", nome_arquivo_saida)'''
-
-'''def calcular_melhor_compra(carrinho, produtores, nome_arquivo_saida):
-    """
-    Abordagem de força bruta para calcular a melhor compra. Testada, porém é um problema com entrada muito grande.
-    :param carrinho: lista de dicionários, onde cada dicionário representa um produto do carrinho
-    :param produtores: lista de dicionários, onde cada dicionário representa um produtor
-    :param nome_arquivo_saida: nome do arquivo CSV de saída
-    :return: None
-    """
-    melhor_compra = None
-    menor_custo_total = float('inf')
-    #print('Linha 191')
-    # Gerar todas as combinações possíveis de produtos dos produtores
-    combinacoes = itertools.product(*[produtor['produtos'] for produtor in produtores])
-    #print('Linha 194')
-    for combinacao in combinacoes:
-        custo_total = 0
-        produtos_comprados = []
-        #print('Linha 198')
-        for produto_carrinho in carrinho:
-            for produto_combinacao in combinacao:
-                if produto_carrinho['nome_prod'] == produto_combinacao['nome']:
-                    quantidade_requerida = produto_carrinho['quantidade_num']
-                    quantidade_disponivel = produto_combinacao['quantidade_num']
-                    #print('Linha 204')
-                    if quantidade_requerida <= quantidade_disponivel:
-                        custo_total += produto_combinacao['valor'] * quantidade_requerida
-                        produtos_comprados.append({
-                            'nome': produto_combinacao['nome'],
-                            'fornecedor': produto_combinacao['fornecedor'],
-                            'quantidade_requerida': quantidade_requerida,
-                            'valor_item': produto_combinacao['valor']
-                        })
-                        break
-                    else:
-                        custo_total += produto_combinacao['valor'] * quantidade_disponivel
-                        produtos_comprados.append({
-                            'nome': produto_combinacao['nome'],
-                            'fornecedor': produto_combinacao['fornecedor'],
-                            'quantidade_requerida': quantidade_disponivel,
-                            'valor_item': produto_combinacao['valor']
-                        })
-                        produto_carrinho['quantidade_num'] -= quantidade_disponivel
-                        #print('Linha 223')
-
-        if custo_total < menor_custo_total:
-            menor_custo_total = custo_total
-            melhor_compra = produtos_comprados
-            #print('Linha 228')
-    # Gerar o arquivo CSV com as informações da melhor compra
-    with open(nome_arquivo_saida, 'w', newline='') as arquivo_saida:
-        escritor_csv = csv.writer(arquivo_saida)
-        escritor_csv.writerow(['Identificação do Produto', 'Identificador do Fornecedor', 'Quantidade Requerida', 'Valor do Item'])
-        #print('Linha 233')
-        for produto in melhor_compra:
-            escritor_csv.writerow([produto['nome'], produto['fornecedor'], produto['quantidade_requerida'], produto['valor_item']])
-        #print('Linha 236')
-        valor_total_produtos = menor_custo_total
-        valor_total_fretes = sum(produtor['frete'] for produtor in produtores)
-        valor_total_compra = valor_total_produtos + valor_total_fretes
-
-        escritor_csv.writerow([])
-        escritor_csv.writerow(['Valor Total dos Produtos', 'Valor Total dos Fretes', 'Valor Total da Compra'])
-        escritor_csv.writerow([valor_total_produtos, valor_total_fretes, valor_total_compra])
-
-    print("A melhor compra foi calculada e as informações foram salvas no arquivo:", nome_arquivo_saida)'''
-
-
 def calcular_melhor_compraAG(carrinho, produtores, populacao_inicial=50, geracoes=100):
     """
     Abordagem de algoritmo genético para calcular a melhor compra. Testado e funcional para o caso de teste.
@@ -339,7 +196,6 @@ def calcular_melhor_compraAG(carrinho, produtores, populacao_inicial=50, geracoe
 
     return melhor_solucao
 
-
 def calcula_valor_total(solucao):
     valor_total_produtos = sum(produto['valor'] for produto in solucao)
     valor_total_fretes = sum(produto['produtor']['frete'] for produto in solucao)
@@ -348,7 +204,6 @@ def calcula_valor_total(solucao):
     valores = {"valor_total_produtos": valor_total_produtos, "valor_total_fretes": valor_total_fretes, "valor_total_compra": valor_total_compra}
     
     return valores
-
 
 def gerar_csv(nome_arquivo_saida, melhor_solucao):
     # Gerar o arquivo CSV com as informações da melhor compra
@@ -372,7 +227,6 @@ def gerar_csv(nome_arquivo_saida, melhor_solucao):
 
     print("A melhor compra foi calculada e as informações foram salvas no arquivo:", nome_arquivo_saida)
 
-
 def melhor_melhor_compra(carrinho, lista_produtores):
     melhor_compra = calcular_melhor_compraAG(carrinho, lista_produtores)
     valores_melhor = calcula_valor_total(melhor_compra)
@@ -390,8 +244,6 @@ def melhor_melhor_compra(carrinho, lista_produtores):
 
     return melhor_compra
 
-
-# Execução do programa
 def main():
     nome_arquivo_saida = 'melhor_compra.csv'
     arquivo_produtores = filedialog.askopenfilename(title='Selecione o arquivo de produtores', filetypes=[('CSV', '*.csv')])
@@ -403,9 +255,6 @@ def main():
     lista_produtores = combinar_dados_produtores_produtos(lista_produtores, lista_produtos) # lista_produtores agora contém os dados dos produtores e seus produtos
     carrinho = carregar_carrinho(arquivo_carrinho) # carrinho contém os dados do carrinho
     melhor_solucao = melhor_melhor_compra(carrinho, lista_produtores)
-    print(f"o porra {calcula_valor_total(melhor_solucao)}")
-    
     gerar_csv(nome_arquivo_saida, melhor_solucao)
-
 
 main()
