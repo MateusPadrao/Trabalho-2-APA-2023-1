@@ -2,6 +2,8 @@ import csv
 import re
 import itertools
 import random
+import tkinter as tk
+from tkinter import filedialog
 
 def separar_numeros(texto):
     """
@@ -252,7 +254,8 @@ def combinar_dados_produtores_produtos(lista_produtores, lista_produtos):
 
     print("A melhor compra foi calculada e as informações foram salvas no arquivo:", nome_arquivo_saida)'''
 
-def calcular_melhor_compraAG(carrinho, produtores, nome_arquivo_saida, populacao_inicial=50, geracoes=100):
+
+def calcular_melhor_compraAG(carrinho, produtores, populacao_inicial=50, geracoes=100):
     """
     Abordagem de algoritmo genético para calcular a melhor compra. Testado e funcional para o caso de teste.
     :param carrinho: lista de dicionários, onde cada dicionário representa um produto do carrinho
@@ -331,6 +334,20 @@ def calcular_melhor_compraAG(carrinho, produtores, nome_arquivo_saida, populacao
     # Melhor solução encontrada
     melhor_solucao = populacao_avaliada[0][0]        
 
+    return melhor_solucao
+
+
+def calcula_valor_total(solucao):
+    valor_total_produtos = sum(produto['valor'] for produto in solucao)
+    valor_total_fretes = sum(produto['produtor']['frete'] for produto in solucao)
+    valor_total_compra = valor_total_produtos + valor_total_fretes
+
+    valores = {"valor_total_produtos": valor_total_produtos, "valor_total_fretes": valor_total_fretes, "valor_total_compra": valor_total_compra}
+    
+    return valores
+
+
+def gerar_csv(nome_arquivo_saida, melhor_solucao):
     # Gerar o arquivo CSV com as informações da melhor compra
     with open(nome_arquivo_saida, 'w', newline='') as arquivo_saida:
         escritor_csv = csv.writer(arquivo_saida)
@@ -344,26 +361,48 @@ def calcular_melhor_compraAG(carrinho, produtores, nome_arquivo_saida, populacao
                 produto['valor']
             ])
 
-        valor_total_produtos = sum(produto['valor'] for produto in melhor_solucao)
-        valor_total_fretes = sum(produto['produtor']['frete'] for produto in melhor_solucao)
-        valor_total_compra = valor_total_produtos + valor_total_fretes
+        valores = calcula_valor_total(melhor_solucao)
 
         escritor_csv.writerow([])
         escritor_csv.writerow(['Valor Total dos Produtos', 'Valor Total dos Fretes', 'Valor Total da Compra'])
-        escritor_csv.writerow([valor_total_produtos, valor_total_fretes, valor_total_compra])
+        escritor_csv.writerow([valores["valor_total_produtos"], valores["valor_total_fretes"], valores["valor_total_compra"]])
 
     print("A melhor compra foi calculada e as informações foram salvas no arquivo:", nome_arquivo_saida)
 
+
+def melhor_melhor_compra(carrinho, lista_produtores):
+    melhor_compra = calcular_melhor_compraAG(carrinho, lista_produtores)
+    valores_melhor = calcula_valor_total(melhor_compra)
+
+    for i in range(10):
+        possivel_melhor_compra = calcular_melhor_compraAG(carrinho, lista_produtores)
+        valores_possivel_melhor = calcula_valor_total(possivel_melhor_compra)
+
+        if valores_melhor['valor_total_compra'] > valores_possivel_melhor['valor_total_compra']:
+            valores_melhor = valores_possivel_melhor
+            melhor_compra = possivel_melhor_compra
+    
+    print(f"melhor valor na teoria: {valores_melhor['valor_total_compra']}")
+    print(f"melhor valor na pratica: {calcula_valor_total(melhor_compra)['valor_total_compra']}")
+
+    return melhor_compra
+
+
 # Execução do programa
+def main():
+    nome_arquivo_saida = 'melhor_compra.csv'
+    arquivo_produtores = filedialog.askopenfilename(title='Selecione o arquivo de produtores', filetypes=[('CSV', '*.csv')])
+    arquivo_produtos = filedialog.askopenfilename(title='Selecione o arquivo de produtos', filetypes=[('CSV', '*.csv')])
+    arquivo_carrinho = filedialog.askopenfilename(title='Selecione o arquivo do carrinho', filetypes=[('CSV', '*.csv')])
 
-nome_arquivo_saida = 'melhor_compra.csv'
+    lista_produtores = carregar_dados_produtores(arquivo_produtores) # lista_produtores contém os dados dos produtores
+    lista_produtos = carregar_dados_produtos(arquivo_produtos) # lista_produtos contém os dados dos produtos
+    lista_produtores = combinar_dados_produtores_produtos(lista_produtores, lista_produtos) # lista_produtores agora contém os dados dos produtores e seus produtos
+    carrinho = carregar_carrinho(arquivo_carrinho) # carrinho contém os dados do carrinho
+    melhor_solucao = melhor_melhor_compra(carrinho, lista_produtores)
+    print(f"o porra {calcula_valor_total(melhor_solucao)}")
+    
+    gerar_csv(nome_arquivo_saida, melhor_solucao)
 
-lista_produtores = carregar_dados_produtores('Fretes.csv') # lista_produtores contém os dados dos produtores
-lista_produtos = carregar_dados_produtos('Produtos.csv') # lista_produtos contém os dados dos produtos
-lista_produtores = combinar_dados_produtores_produtos(lista_produtores, lista_produtos) # lista_produtores agora contém os dados dos produtores e seus produtos
-carrinho = carregar_carrinho('carrinho_exemplo.csv') # carrinho contém os dados do carrinho
-calcular_melhor_compraAG(carrinho, lista_produtores, nome_arquivo_saida)
 
-
-
-
+main()

@@ -1,18 +1,18 @@
 Identificacao do Produto,Identificador do Fornecedor,Quantidade Requerida,Valor do Item
-Acelga,Fernando Santos,4.0,4.0
-Leite,Danilo Cavalcanti,3.0,4.0
-Salsa,Maria Cecília Almeida,1.0,8.0
-Manteiga,Matheus Nogueira,300.0,19.0
-Alho,Natália da Costa,1.0,10.0
-Cebola,Augusto Cunha,1.0,11.0
-Bergamota Ponkan,Pedro Henrique Freitas,1.0,11.0
-Laranja de Umbigo,Pedro Henrique das Neves,2.0,14.0
-Abacaxi,Bruno Pires,5.0,8.0
-Nata Santa Clara,Luigi Ramos,200.0,11.0
-Cenoura,Nina Moreira,2.0,12.0
-Beterraba,Heitor Aragão,5.0,13.0
-Banana,Enrico Novaes,1.0,14.0
-Mel,Luigi Ramos,500.0,14.0
+Acelga,Matheus Correia,4.0,4.0
+Leite,Alice Teixeira,3.0,4.0
+Salsa,Raul Araújo,1.0,7.0
+Manteiga,Luigi Ramos,300.0,5.0
+Alho,Alice Teixeira,1.0,11.0
+Cebola,Matheus Nogueira,1.0,12.0
+Bergamota Ponkan,Natália da Costa,1.0,13.0
+Laranja de Umbigo,Luiz Miguel da Costa,2.0,13.0
+Abacaxi,André da Cruz,5.0,15.0
+Nata Santa Clara,Alana Sales,200.0,10.0
+Cenoura,Leonardo da Cruz,2.0,10.0
+Beterraba,Ana Sophia Costela,5.0,14.0
+Banana,Joaquim Melo,1.0,11.0
+Mel,Pedro Lucas Cardoso,500.0,42.0
 
 Valor Total dos Produtos,Valor Total dos Fretes,Valor Total da Compra
-153.0,289.0,442.0
+171.0,271.0,442.0
